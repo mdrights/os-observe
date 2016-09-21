@@ -1,10 +1,10 @@
 # SITE SETTINGS
-title: "镜像拆那"
-tagline: "mirror-CN"
-description: "一个公共政策参与平台"
+title: "开源社区田野笔记"
+tagline: "OS-Observe"
+description: "Linux/开源社区的运营经验分享和译介；有时兼有关于Linux/隐私安全的笔记哦"
 
-url: "https://mdrights.github.io/mirror-CN"
-baseurl: "https://mdrights.github.io/mirror-CN"
+url: "https://mdrights.github.io/os-observe"
+baseurl: "https://mdrights.github.io/os-observe"
 timezone: UTC
 excerpt_separator: <!--more-->
 email: 
