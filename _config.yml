@@ -1,0 +1,46 @@
+# SITE SETTINGS
+title: "镜像拆那"
+tagline: "mirror-CN"
+description: "一个公共政策参与平台"
+
+url: "https://mdrights.github.io/mirror-CN"
+baseurl: "https://mdrights.github.io/mirror-CN"
+timezone: UTC
+excerpt_separator: <!--more-->
+email: 
+
+# Build settings
+markdown: kramdown
+#redcarpet: 
+#  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+exclude: [Gemfile, Gemfile.lock, README.md]
+enforce_ssl: mdrights.github.io
+permalink: /posts/:year/:month/:title.html
+
+# Plugins
+gems:
+  - jemoji
+emoji:
+  src: "/images"
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      excerptable: true
+      sitemap: true
+      comments: true
+      layout: post
+  -
+    scope:
+      path: ""
+    values:
+      cc_by_sa: true
+  -
+    scope:
+      path: "tags"
+    values:
+      layout: tag

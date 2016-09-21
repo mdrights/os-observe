@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>mirror-CN</h1>
+          <p>镜像拆哪 - 公共政策参与平台</p>
+  	  <p>- A platform for Collaboration on Social Policy Advocacy in the Mainland China</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/mdrights">mdrights</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by mattgraham</span>
+        </div>
+
+	<div class="posts">
+	{% for post in site.posts %}
+
+		<h4>
+		<!--<a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>-->
+		</h4>
+		
+		{{ post.content }}
+		<br>
+		<div class="date">
+    			Posted on {{ page.date | date: "%B %e, %Y" }}
+ 		</div>	
+	<hr>
+	{% endfor %}
+	</div>
+
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
