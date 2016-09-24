@@ -1,10 +1,11 @@
 ---
 layout: post
 ---
+### Whonix Hacking  
 
 > 题注：作为本博客的第一篇文章，这竟然是关于隐私和匿名上网技术的笔记。它是我自己的操作，稍带创新的吧（这几年其实很多操作都值得记录，但皆觉得都是从谷歌或各大wiki中学来的，才没记下来……）。  
 
-这篇文章是我怎样Hack Whonix（[Ta是什么？](https://whonix.org)）。所谓“Hack”并不是真正的去黑，而是“把它搞明白、弄清原理，或改装它”的意思。  
+这篇文章是我怎样Hack Whonix（[Whonix是什么？](https://whonix.org)）。所谓“Hack”并不是真正的去黑，而是“把它搞明白、弄清原理，或改装它”的意思。  
 
 Whonix是出色的用于匿名和隐私保护的操作系统（基于著名而伟大的[Debian GNU/Linux](https://debian.org)）。匿名和开源社区有何关系？待我以后展开，此处一句话带过：开源（其实应该叫“自由”，[Free as in Freedom](https://www.gnu.org/philosophy/free-sw.html)）的本质应该是（对自己电脑等设备）的自主和信息的自主。
 
@@ -12,11 +13,11 @@ Whonix是出色的用于匿名和隐私保护的操作系统（基于著名而�
 
 **我的需求和目的**: 由于Whonix其实是虚拟机里的两台guest系统（gateway & workstation，来确保所有的流量都走Tor），这虽然很有效，不过也牺牲了机器性能（不是所有机器都带得动两台虚拟机，连Macbook air都发烫），还有便利（麻烦不）。而我平时其实并没有这么严格的匿名要求，但又想依赖人家精心调好的系统（至少专业地审计过）。因此需求来了，决定改它这系统，_成为只允许走socks（如Shadowsocks）隧道的系统_。
 
-**第零步**
-
 研究了Whonix（Workstation）的[技术详情](https://www.whonix.org/wiki/Design)和它的Github（自己搜，其实就是它的主人在Debian的基础上加了一些脚本和配置文件）后，
 
-第零步，是设置Workstation（ws）的虚拟网卡的连接方式（原先因为它是gateway的下级网络，不会直接和HostOS连接的）——设成NAT模式，并在ws里interface那儿设置静态IP，跟虚拟机（我的VirtualBox）在同一网段，网才能通。见：
+**第零步**
+
+设置Workstation（ws）的虚拟网卡的连接方式（原先因为它是gateway的下级网络，不会直接和HostOS连接的）——设成NAT模式，并在ws里interface那儿设置静态IP，跟虚拟机（我的VirtualBox）在同一网段，网才能通。见：
 
 ```
 auto eth0
@@ -28,13 +29,14 @@ iface eth0 inet static
 
 **第一步**
 
-就是要破解它对非Tor流量的封锁。辣么，Whonix-ws其实没有默认启动firewall（是gateway负责firewall对流量的管控，然而我不打算用gw：）。它封锁的原理是这样的（精准的说法请去其网站看原文：）：在gw的firewall的OUTPUT链允许指定的Tor（SocksPort）端口让其出门，而且真正的Tor开在gw上；在ws上开一个服务（叫`tor.anondist`，其实它是个脚本，里面会启动`/usr/lib/anon-ws-disable-stacked-tor/dummytor`，也是一个它主人自己写的脚本），它是个假Tor，专门开和Tor一样的端口（如9050,9150）；然后还有一个服务（叫rinetd, 其实还有socat），它来转发所有设置了9050等代理端口的软件的流量，转到gw上相一致的Tor端口上（那是真的）。这样ws上的软件（包括TorBrowser都以为本机上有Tor在开启，就防止了`Tor over Tor`的发生。（当然更具体的原理请读一读它主人的脚本，在/usr/lib/anon-* 那四个目录都是）对了，还有，它主人可能是为了“蒙混过关”或者防止用户/软件自己下载Tor，在/usr/bin/设了个软链叫`Tor`，指向`Tor-anondist`，而真的Tor（如果下载了的话），会把它改名为`Tor.anondist-orig`（具体如何自动化做的还不清楚）；而为了让这个假的Tor启动，systemctl里Tor的配置文件都写着`/usr/bin/true`，呵呵呵。
+就是要破解它对非Tor流量的封锁。辣么，Whonix-ws其实没有默认启动firewall（是gateway负责firewall对流量的管控，然而我不打算用gw：）。它封锁的原理是这样的（精准的说法请去其网站看原文：）：在gw的firewall的OUTPUT链允许指定的Tor（SocksPort）端口让其出门，而且真正的Tor开在gw上；在ws上开一个服务（叫`tor.anondist`，其实它是个脚本，里面会启动`/usr/lib/anon-ws-disable-stacked-tor/dummytor`，也是一个它主人自己写的脚本），它是个假Tor，专门开和Tor一样的端口（如9050,9150）；然后还有一个服务（叫rinetd, 其实还有socat），它来转发所有设置了9050等代理端口的软件的流量，转到gw上相一致的Tor端口上（那是真的）。这样ws上的软件（包括TorBrowser都以为本机上有Tor在开启，就防止了`Tor over Tor`的发生。（当然更具体的原理请读一读它主人的脚本，在`/usr/lib/anon-*` 那四个目录都是）对了，还有，它主人可能是为了“蒙混过关”或者防止用户/软件自己下载Tor，在/usr/bin/设了个软链叫`Tor`，指向`Tor-anondist`，而真的Tor（如果下载了的话），会把它改名为`Tor.anondist-orig`（具体如何自动化做的还不清楚）；而为了让这个假的Tor启动，systemctl里Tor的配置文件都写着`/usr/bin/true`，呵呵呵。
 
-**这就简单了，禁掉rinetd，把/usr/lib/anon-* 的文件都`chmod -x`。想开机自启动的就把/lib/systemd/system/tor.service里的程序路径改为真的Tor的路径。**  
+这就简单了，禁掉rinetd，把`/usr/lib/anon-*` 的所有文件都`chmod -x`。想开机自启动的就把/lib/systemd/system/tor.service里的程序路径改为真的Tor的路径。  
 
 **第二步**
 
-（前面好像不只一步耶）当然就是在ws开启iptables防火墙，只允许你想要的流量/端口。Iptables就不再具体介绍了，我默认你会。我的是：
+（前面好像不只一步耶）当然就是在ws开启iptables防火墙，只允许你想要的流量/端口。Iptables就不再具体介绍了，我默认你会。我的是：  
+
 ```
 Chain INPUT (policy DROP 0 packets, 0 bytes)
  pkts bytes target     prot opt in     out     source               destination         
@@ -54,7 +56,8 @@ Chain OUTPUT (policy DROP 0 packets, 0 bytes)
     0     0 ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:<socks>
 ```
 
-然后你想只允许目标端口为80,443的才能被转发，可以：
+然后你想只允许目标端口为80,443的才能被转发，可以：  
+
 ```
 Chain OUTPUT (policy ACCEPT 59 packets, 3068 bytes)
  pkts bytes target     prot opt in     out     source               destination         
