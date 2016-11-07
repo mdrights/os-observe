@@ -1,0 +1,39 @@
+---
+layout: default
+date: 2016-09-21
+---
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>开源社区的田野</h1>
+          <p>—— Linux/开源社区运营的经验；兼有一些关于隐私安全的笔记。</p>
+  	  <p>- The Ethnography of Open Source Communities in China.</p> 
+		<p>(And some notes on online privacy.)</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/mdrights">mdrights</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by mattgraham</span>
+        </div>
+
+	<div class="posts">
+	{% for post in site.posts %}
+
+		<h4>
+		<!--<a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>-->
+		</h4>
+		
+		{{ post.content }}
+		<br>
+		<div class="date">
+    			Posted on {{ page.date | date: "%B %e, %Y" }}
+ 		</div>	
+	<hr>
+	{% endfor %}
+	</div>
+
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    

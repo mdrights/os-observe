@@ -1,0 +1,46 @@
+# SITE SETTINGS
+title: "开源社区田野笔记"
+tagline: "OS-Observe"
+description: "Linux/开源社区的运营经验分享和译介；有时兼有关于Linux/隐私安全的笔记哦"
+
+url: "https://mdrights.github.io/os-observe"
+baseurl: "https://mdrights.github.io/os-observe"
+timezone: UTC
+excerpt_separator: <!--more-->
+email: 
+
+# Build settings
+markdown: kramdown
+#redcarpet: 
+#  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+exclude: [Gemfile, Gemfile.lock, README.md]
+enforce_ssl: mdrights.github.io
+permalink: /posts/:year/:month/:title.html
+
+# Plugins
+gems:
+  - jemoji
+emoji:
+  src: "/images"
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      excerptable: true
+      sitemap: true
+      comments: true
+      layout: post
+  -
+    scope:
+      path: ""
+    values:
+      cc_by_sa: true
+  -
+    scope:
+      path: "tags"
+    values:
+      layout: tag
