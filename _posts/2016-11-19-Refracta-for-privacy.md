@@ -1,5 +1,8 @@
 ---
 ---
+
+## Refracta: 定制自己的Live系统
+
 之前我自己一直折腾着Tails, Whonix, 等与隐私和信息安全相关的系统，他们要么在用户友好易用性不够满意，要么对系统性能要求较高，我们还是需要继续折腾，满足用户对隐私和易用的双重需求。
 
 著名的_网红_程序员，“[编程随想](https://program-think.blogspot.com/)”，写过很多很好的教程，各个领域的包括教大家如何用虚拟机保护自己的信息，你感兴趣，可移步[这里](https://program-think.blogspot.cz/2010/04/howto-cover-your-tracks-0.html)。
