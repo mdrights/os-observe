@@ -17,15 +17,15 @@ date: 2016-09-21
         </div>
 
 	<h3><a href="{{ site.baseurl }}">A Studio: In Defense of Online Privacy - 在线隐私工作室</a></h3>
-	<p>为NGOers、社运人士、维权者提供以下技术支持：</p>
+<!--	<p>为NGOers、社运人士、维权者提供以下技术支持：</p> -->
 	<ul>
+		<li>信息无障碍</li>
 		<li>通讯加密</li>
-		<li>隐匿上网</li>
-		<li>Linux桌面系统安装/使用</li>
+		<li>隐匿上网（匿名通讯）</li>
 	</ul>
 	<br />
 
-	<h3><a href="https://github.com/mdrights/Digital-rights">「在线隐私和数字权利」翻译系列：</a></h3>
+	<h3><a href="https://github.com/mdrights/Digital-rights">「在线隐私和数字权利」翻译系列：</a>（&larr; 点这里参与协作）</h3>
 	<ul>
 		<li>EFF's Deeplinks 博客</li>
 		<li>加密/匿名工具相关新闻和评测</li>
@@ -36,11 +36,11 @@ date: 2016-09-21
 	<div class="posts">
 	{% for post in site.posts %}
 
-		<h4>
-		<a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-		</h4>
+		<h3>
+		<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+		</h3>
 		
-		{{ post.content }}
+		{{ post.excerpt }}
 		<br>
 		<div class="date">
     			Posted on {{ post.date | date: "%B %e, %Y" }}
