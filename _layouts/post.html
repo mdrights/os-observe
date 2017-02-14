@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
-<div class="post-link">
+<div class="posts">
 	{{ content }}
 </div>
+
+<div class="date">
+    Posted on {{ post.date | date: "%B %e, %Y" }}
+</div>
+
