@@ -9,6 +9,7 @@ date: 2016-01-01
 这篇文章是我怎样Hack Whonix（[Whonix是什么？](https://whonix.org)）。所谓“Hack”并不是真正的去黑，而是“把它搞明白、弄清原理，或改装它”的意思。  
 
 Whonix是出色的用于匿名和隐私保护的操作系统（基于著名而伟大的[Debian GNU/Linux](https://debian.org)）。匿名和开源社区有何关系？待我以后展开，此处一句话带过：开源（其实应该叫“自由”，[Free as in Freedom](https://www.gnu.org/philosophy/free-sw.html)）的本质应该是（对自己电脑等设备）的自主和信息的自主。
+<!--more-->
 
 **进入正题：**  
 

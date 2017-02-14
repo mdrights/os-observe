@@ -9,6 +9,7 @@ date: 2016-11-19
 著名的_网红_程序员，“[编程随想](https://program-think.blogspot.com/)”，写过很多很好的教程，各个领域的包括教大家如何用虚拟机保护自己的信息，你感兴趣，可移步[这里](https://program-think.blogspot.cz/2010/04/howto-cover-your-tracks-0.html)。
 
 今天我想添油加醋的是，再推荐一款易用性更好，更容易复制推广的系统，[Refracta/Devuan](http://ibiblio.org/refracta)。跟前两者一样是基于Debian的。
+<!--more-->
 
 它有这样的优势，
 
