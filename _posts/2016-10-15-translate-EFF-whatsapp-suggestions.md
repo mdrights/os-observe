@@ -1,5 +1,6 @@
 ---
 date: 2016-10-15
+tags: Trans,EFF
 ---
 
 ## 「譯」EFF：Whatsapp的四點不安全做法

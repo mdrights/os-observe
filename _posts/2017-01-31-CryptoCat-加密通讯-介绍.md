@@ -11,6 +11,7 @@ Source: https://crypto.cat/security.html
 
 Cryptocat uses a Double Ratchet-based encryption protocol that combines a forward-secure ratchet with a zero round-trip authenticated key exchange. As a transport layer for encrypted messages, Cryptocat adopts the OMEMO Multi-End Message and Object Encryption standard, which also gives Cryptocat multi-device support and allows for offline messaging. In terms of the transport layer, Cryptocat uses XMPP over a long-standing, TLS-encrypted WebSockets connection.
 Cryptocat 使用了「双棘轮」为本的加密协议，该协议结合了一个向前安全的“棘轮，及一个零巡回验证的密钥交换过程。在承载加密信息的传输层上，Cryptocat 采用了 [OMEMO 多端信息和对象加密标准](https://conversations.im/xeps/multi-end.html)，能提供多设备支持并允许离线消息。至于这传输层，Cryptocat使用通过一个长期性的TLS加密的 WebSockets连接的 XMPP（协议）。
+<!--more-->
 
 Every Cryptocat device owns a long-term identityKey pair which helps with the establishment of the initial authenticated key exchange. This key pair also serves to sign the device's signedPreKey, an ephemeral public key that also is mixed into the authenticated key exchange. The signedPreKey is also shipped with 100, unsigned, one-time-use preKeys, and is regenerated and re-signed every week.
 
