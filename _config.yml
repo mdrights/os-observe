@@ -1,7 +1,7 @@
 # SITE SETTINGS
-title: "开源社区田野笔记"
+title: "網絡隱私社区田野笔记"
 tagline: "OS-Observe"
-description: "Linux/开源社区的运营经验分享和译介；有时兼有关于Linux/隐私安全的笔记哦"
+description: "Linux/开源/隐私安全的笔记"
 
 url: "https://mdrights.github.io/os-observe"
 baseurl: "https://mdrights.github.io/os-observe"
