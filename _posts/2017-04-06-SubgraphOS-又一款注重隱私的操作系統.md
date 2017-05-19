@@ -25,6 +25,7 @@ Ricochet 是一款匿名的客戶端到客戶端（peer-to-peer）即時通訊�
 
 我們把我們的技術文檔放在操作系統裏。從桌面便能讀到簡潔版本。完整版可以在這裏找到：/usr/share/sgos-handbook/  
 
+<!--more-->
 
 ## 改進和bug修復
 

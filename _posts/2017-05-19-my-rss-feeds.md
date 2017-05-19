@@ -21,6 +21,7 @@ There are mainly two perspectives I engaged in: social issues/movements and Open
             "Blackarch blog" title="Blackarch blog" xmlUrl="https://blackarch.org/rss.xml" htmlUrl="https://blackarch.org"
             "BreakWa11" title="BreakWa11" xmlUrl="http://breakwa11.blogspot.com/feeds/posts/default" htmlUrl="http://breakwa11.blogspot.com/"
             "The Tor Blog blogs" title="The Tor Blog blogs" xmlUrl="https://blog.torproject.org/blog/feed" htmlUrl="https://blog.torproject.org/blog"
+	    "Tails - News" title="Tails - News" xmlUrl="https://tails.boum.org/news/index.en.rss" htmlUrl="https://tails.boum.org/news/index.en.html"
             "GFW BLOG（功夫网与翻墙）" title="GFW BLOG（功夫网与翻墙）" xmlUrl="http://www.chinagfw.org/feeds/posts/default" htmlUrl="http://www.chinagfw.org/"
             "rss" text="Whonix" title="Whonix" xmlUrl="https://www.whonix.org/blog/feed" htmlUrl="https://www.whonix.org/blog"
             "二翔子的博客" title="二翔子的博客" xmlUrl="http://2xiangzi.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://2xiangzi.blogspot.com/"
