@@ -12,27 +12,18 @@ Here you go:
 
 There are mainly two perspectives I engaged in: social issues/movements and Open Source/Linux/Infosec. Here are some prominent ones:
 
-            "Solidot" title="Solidot" xmlUrl="http://www.solidot.org/index.rss" htmlUrl="http://www.solidot.org"/>
-            "Deeplinks" title="Deeplinks" xmlUrl="http://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/rss/updates.xml"/>
-            "中国数字时代" title="中国数字时代" xmlUrl="http://feeds.feedburner.com/chinadigitaltimes/IyPt" htmlUrl="http://chinadigitaltimes.net/chinese"/>
-            "FSF News" title="FSF News" xmlUrl="http://static.fsf.org/fsforg/rss/news.xml" htmlUrl="http://www.fsf.org/news/aggregator"/>
-            "EFF Press Releases" title="EFF Press Releases" xmlUrl="https://www.eff.org/rss/pressrelease" htmlUrl="https://www.eff.org/rss/pressrelease"/>
+            "Solidot" title="Solidot" xmlUrl="http://www.solidot.org/index.rss" htmlUrl="http://www.solidot.org"
+            "Deeplinks" title="Deeplinks" xmlUrl="http://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/rss/updates.xml"
+            "中国数字时代" title="中国数字时代" xmlUrl="http://feeds.feedburner.com/chinadigitaltimes/IyPt" htmlUrl="http://chinadigitaltimes.net/chinese"
+            "FSF News" title="FSF News" xmlUrl="http://static.fsf.org/fsforg/rss/news.xml" htmlUrl="http://www.fsf.org/news/aggregator"
+            "EFF Press Releases" title="EFF Press Releases" xmlUrl="https://www.eff.org/rss/pressrelease" htmlUrl="https://www.eff.org/rss/pressrelease"
 
-            "Blackarch blog" title="Blackarch blog" xmlUrl="https://blackarch.org/rss.xml" htmlUrl="https://blackarch.org"/>
-            "Red Hat Security Blog Blog Posts" title="Red Hat Security Blog Blog Posts" xmlUrl="http://securityblog.redhat.com/feed/" htmlUrl="https://access.redhat.com/blogs/766093/posts"/>
-            "BreakWa11" title="BreakWa11" xmlUrl="http://breakwa11.blogspot.com/feeds/posts/default" htmlUrl="http://breakwa11.blogspot.com/"/>
-            "BackBox Linux blogs" title="BackBox Linux blogs" xmlUrl="http://www.backbox.org/blog/feed" htmlUrl="https://backbox.org/portal/blog"/>
-            "Debian Security" title="Debian Security" xmlUrl="http://www.debian.org/security/dsa" htmlUrl="http://security.debian.org/"/>
-            "The Tor Blog blogs" title="The Tor Blog blogs" xmlUrl="https://blog.torproject.org/blog/feed" htmlUrl="https://blog.torproject.org/blog"/>
-            "Gentoo Linux Security Advisories" title="Gentoo Linux Security Advisories" xmlUrl="https://security.gentoo.org/glsa/feed.rss" htmlUrl="https://security.gentoo.org/glsa"/>
-            "Fedora security Planet" title="Fedora security Planet" xmlUrl="http://fedoraplanet.org/security/rss20.xml" htmlUrl="http://fedoraplanet.org/security/"/>
-            "Tox Blog" title="Tox Blog" xmlUrl="https://blog.tox.chat/feed/" htmlUrl="https://blog.tox.chat"/>
-            "GFW BLOG（功夫网与翻墙）" title="GFW BLOG（功夫网与翻墙）" xmlUrl="http://www.chinagfw.org/feeds/posts/default" htmlUrl="http://www.chinagfw.org/"/>
-            "Alien's Slackware packages" title="Alien's Slackware packages" xmlUrl="http://www.slackware.com/~alien/slackbuilds/ChangeLog.rss" htmlUrl="http://www.slackware.com/~alien/"/>
-            <outline type="rss" text="Offensive Security Blog V2.0" title="Offensive Security Blog V2.0" xmlUrl="http://r00tsec.blogspot.com/feeds/posts/default" htmlUrl="http://www.r00tsec.com/"/>
-           "Tails - News" title="Tails - News" xmlUrl="https://tails.boum.org/news/index.en.rss" htmlUrl="https://tails.boum.org/news/index.en.html"/>
-            "rss" text="Whonix" title="Whonix" xmlUrl="https://www.whonix.org/blog/feed" htmlUrl="https://www.whonix.org/blog"/>
-            "二翔子的博客" title="二翔子的博客" xmlUrl="http://2xiangzi.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://2xiangzi.blogspot.com/"/>
-            "翻牆網 ATGFW.ORG" title="翻牆網 ATGFW.ORG" xmlUrl="http://www.atgfw.org/feeds/posts/default" htmlUrl="http://www.atgfw.org/"/>
+            "Blackarch blog" title="Blackarch blog" xmlUrl="https://blackarch.org/rss.xml" htmlUrl="https://blackarch.org"
+            "BreakWa11" title="BreakWa11" xmlUrl="http://breakwa11.blogspot.com/feeds/posts/default" htmlUrl="http://breakwa11.blogspot.com/"
+            "The Tor Blog blogs" title="The Tor Blog blogs" xmlUrl="https://blog.torproject.org/blog/feed" htmlUrl="https://blog.torproject.org/blog"
+            "GFW BLOG（功夫网与翻墙）" title="GFW BLOG（功夫网与翻墙）" xmlUrl="http://www.chinagfw.org/feeds/posts/default" htmlUrl="http://www.chinagfw.org/"
+            "rss" text="Whonix" title="Whonix" xmlUrl="https://www.whonix.org/blog/feed" htmlUrl="https://www.whonix.org/blog"
+            "二翔子的博客" title="二翔子的博客" xmlUrl="http://2xiangzi.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://2xiangzi.blogspot.com/"
+            "翻牆網 ATGFW.ORG" title="翻牆網 ATGFW.ORG" xmlUrl="http://www.atgfw.org/feeds/posts/default" htmlUrl="http://www.atgfw.org/"
 
 -- Happy Reading !
