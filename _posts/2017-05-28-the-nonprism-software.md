@@ -1,4 +1,5 @@
 ---
+date: 2017-05-28
 ---
 
 ## 反“棱鏡”-隱私加強的軟件庫
@@ -12,6 +13,51 @@ Nonprism 的 PKGBUILD 在這裏：[https://git.parabola.nu/abslibre.git/tree/non
 今後還會不斷增加更多能夠做到去掉不安全部分的軟件。它還自帶一個 [your-privacy](https://www.parabola.nu/packages/nonprism/any/your-privacy/) 工具，可以檢測系統是否安裝了有隱私泄漏風險的軟件，並提示卸載換成 Nonprim 倉庫裏的修改版本。
 
 <!--more-->
+
+截至發本貼的時間，軟件列表如下：
+
+```
+amarok
+banshee
+bitlbee
+blogilo
+bti
+california
+centerim
+choqok
+claws-mail
+darktable
+dhcpcd-hardened-script
+digikam
+duplicity
+empathy
+eog-plugins
+evolution-data-server
+gnome-online-accounts
+gnome-settings-daemon
+gnome-weather
+grilo-plugins
+gthumb
+hostname-blanker
+icedove-hardened-preferences
+icedove
+iceweasel-hardened-preferences
+jitsi
+kde-applications-meta
+kdenetwork-kopete
+kdepim-addons
+kdepim-runtime
+kmail
+networkmanager-hardened-configs
+openshot
+pidgin
+redshift
+sylpheed
+tor-hardened-preferences
+webkit2gtk
+webkitgtk
+your-privacy
+```
 
 直接使用已編譯好的安裝包，用pacman安裝也是可以的。只要在你的 `/etc/pacman.conf` 加入:
 
