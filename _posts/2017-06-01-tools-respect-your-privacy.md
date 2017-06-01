@@ -11,7 +11,7 @@ date: 2017-06-01
 
 這時，你我都可能還不得不用支付寶、摩拜的免費服務，但其實我所能做的，就是廣而告之，還有哪些能尊重你的隱私的（至少不需捆綁手機號吧）服務。下面列舉一些門檻不是高的（持續添加中）：
 
-- 即時通訊類（1-3項都免註冊）
+- 即時通訊
     - Riot/Matrix: [riot.im](https://riot.im/app)
     - IRC: 客戶端有很多如 Hexchat，Weechat，irssi. 節點也很多如 [Freenode.net](https://freenode.net) （需配合其他匿名化工具使用）
     - XMPP: 客戶端有很多，如 Pidgin, Chatsecure, Tor Messenger, Jitsi, Conversation...（可以到這裏註冊一個XMPP帳號：[https://www.cryptoparty.in/connect/contact/jabber](https://www.cryptoparty.in/connect/contact/jabber) ）
