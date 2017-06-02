@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /tails/
+permalink: /tags/
 ---
 
 <br />
@@ -10,13 +10,13 @@ permalink: /tails/
 
 <div class="posts">
     <article class="post">
-	{% for post in site.tags.tails %}
+    {% for post in post.tags.tails %}
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 	<div align="right">{{ post.date | date: "%B %e, %Y" }}</div>
 	<hr>
         <br />
     </article>
-  {% endfor %}
+    {% endfor %}
 </div>
 
 
