@@ -1,5 +1,5 @@
 ---
-tags: trans,tails
+tags: tails
 ---
 
 
