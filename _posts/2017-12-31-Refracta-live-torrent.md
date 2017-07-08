@@ -1,5 +1,5 @@
 ---
-date: 2017-06-03
+date: 2017-07-08
 tags: refracta
 ---
 
@@ -11,16 +11,20 @@ tags: refracta
 
 > 答案就是：live對系統的修改不會保存，每次重啓都會還原到製作時的狀態。這一招就能抵禦諸如木馬的駐留，最大限度降低它的長期破壞（比如網頁和電郵的附件夾帶的惡意程序）。對於打開不信任的網頁，和/或 打開別人發給你的可執行文件（包括各種文檔、pdf、exe、圖片、音頻等）時特別有效。live iso 放在虛擬機裏使用更加有效（避免對宿主機的破壞） 或 刻錄到 USB盤上隨身攜帶也非常方便。:-)
 
-其他不再贅述，上乾貨（需要用 BT客戶端下載~）：
+其他不再贅述，上乾貨：
 
-[Refracta-live-20170603.torrent]({{ site.baseurl }}/docs/Refracta-live-20170603.torrent) 
+[Refracta-201707.iso](https://mdrights.blaucloud.de/index.php/s/03oc1NgbKoI9RCR) 
 
-本月鏡像已包含：  
+7月鏡像已更新，包含：  
+
+- 系統更新
+- ShadowsocksR（python版：進入`~/shadowsocksr/shadowsocks`，執行 `python local -c <你的ssr配置文件>`）
 - fcitx-googlepinyin 輸入法
 - Libreoffice
 - Riot-web
+- Firefox瀏覽器（配User-Agent Switcher，可以僞裝成別的瀏覽器和系統）
 
 
-_本帖會持續更新，歡迎測試_
+_本帖會持續更新，歡迎測試_   
 _Happy using it_
 
