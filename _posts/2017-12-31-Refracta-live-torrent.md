@@ -1,5 +1,5 @@
 ---
-date: 2017-07-08
+date: 2017-07-30
 tags: refracta
 ---
 
@@ -13,18 +13,27 @@ tags: refracta
 
 其他不再贅述，上乾貨（下載後記得做驗證；網盤服務商爲 Blaucloud.de 位於德國）：
 
-[Refracta-201707.iso](https://mdrights.blaucloud.de/index.php/s/03oc1NgbKoI9RCR) 
+[Refracta-201708.iso](https://mdrights.blaucloud.de/index.php/s/03oc1NgbKoI9RCR) 
 
-7月鏡像已更新，包含：  
+8月鏡像已更新，包含：  
 
 - 系統更新
-- ShadowsocksR（python版：進入`~/shadowsocksr/shadowsocks`，執行 `python local -c <你的ssr配置文件>`）
+- ShadowsocksR (& Shadowsocks）
+	- （python版：進入`~/shadowsocksr/shadowsocks`，執行 `python local -c <你的ssr配置文件>`）
 - fcitx-googlepinyin 輸入法
 - Libreoffice
 - Riot-web
-- Firefox瀏覽器（配User-Agent Switcher，可以僞裝成別的瀏覽器和系統）
+- Tor （包括命令行版 + Tor浏览器 7.0）
+- Calibre （电子书阅读器）
+- macchanger （MAC地址随机化工具）
+- Poedit & translate-tools (协助翻译的强大工具）
+- Firefox瀏覽器（带以下插件）
+	- User-Agent Switcher，可以僞裝成別的瀏覽器和系統
+	- Noscript
+	- HTTPSeverywhere
+	- ublock origin （防广告）
+	- Privacy Badger （防第三方cookies）
 
 
-_本帖會持續更新，歡迎測試_   
-_Happy using it_
+_本帖會持續更新，歡迎測試，祝使用愉快_   
 
