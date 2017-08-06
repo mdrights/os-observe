@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /eff-updates/
 date: 2017-08-06
 ---
@@ -9,9 +9,21 @@ date: 2017-08-06
 <br />
 
 > 这里尝试简单翻译跟进 **电子前哨基金会** [EFF](https://eff.org) 的 [Press release](https://www.eff.org/updates?type=press_release), [Action Center](https://act.eff.org/) 和 [DEEPLINKS](https://www.eff.org/updates?type=blog)。  
-因为工作量大，这里只翻译第一段或摘要性译介。
+因为工作量大，这里只翻译第一段或摘要性译介。如有翻译错误，请到[翻译仓库](https://github.com/mdrights/digital-rights) issue我喵。
+
+最后更新： {{ post.date | date: "%B %e, %Y" }}
 
 <hr>
+
+### EFF怼FCC：扔掉网络中立保护规则将会导致ISP随意屏蔽和审查互联网用户
+
+
+_Press Release
+July 17, 2017_
+
+EFF今天向FCC提交了一份评论，敦促FCC保留网络中立规则，防止互联网基础设施公司控制、审查和歧视互联网用户所能触及的内容。
+
+[原文](https://www.eff.org/press/releases/eff-fcc-tossing-net-neutrality-protections-will-set-isps-free-throttle-block-and)
 
 ### 我们必须保持互联网的免费和开放。EFF，科技巨头，创业公司和网络用户跟FCC说：不要为了讨好ISP出卖网络中立性。
 
