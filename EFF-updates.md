@@ -11,9 +11,18 @@ date: 2017-08-06
 > 这里尝试简单翻译跟进 **电子前哨基金会** [EFF](https://eff.org) 的 [Press release](https://www.eff.org/updates?type=press_release), [Action Center](https://act.eff.org/) 和 [DEEPLINKS](https://www.eff.org/updates?type=blog)。  
 因为工作量大，这里只翻译第一段或摘要性译介。如有翻译错误，请到[翻译仓库](https://github.com/mdrights/digital-rights) issue我喵。
 
-最后更新： {{ post.date | date: "%B %e, %Y" }}
+最后更新： {{ post.date }}
 
 <hr>
+
+### EFF怼FCC：边检工作人员需要搜查令才可检查电子设备内容
+
+_Press Release | August 8, 2017_
+
+新奥尔良，路易斯安那州—— 联邦执法者在国际机场和陆地口岸对手机、笔记本电脑和其他电子设备的搜查，是对旅行者个人信息的严重侵犯，因而需要搜查令。EFF昨日在一份法庭笔录中如是说。
+
+EFF敦促美国第五上诉巡回法庭要求边境执法部门官员在执行手动地或利用取证工具搜查电子设备前须获得搜查令。对日常出入境和海关部门来说，对背包、钱包或行李箱的免搜查令搜查，属于第四修正案的例外情况而得到允许。然而 EFF 认为，数字设备提供着非常多个人的私有信息——我们的通讯录、电子邮件、工作文档、日程表——执法人员被要求有可能的原因相信该设备包含了破坏出入境和海关法律的证据。只有在法官签署了搜查令后边境执法人员才有权查看手机、电脑和平板的内容。
+
 
 ### EFF怼FCC：扔掉网络中立保护规则将会导致ISP随意屏蔽和审查互联网用户
 
