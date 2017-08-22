@@ -19,7 +19,7 @@ tags: refracta
 
 - 系統更新
 - ShadowsocksR (& Shadowsocks）
-	- （python版：進入`~/shadowsocksr/shadowsocks`，執行 `python local -c <你的ssr配置文件>`）
+	- （python版：進入`~/shadowsocksr/shadowsocks`，執行 `python local.py -c <你的ssr配置文件>`）
 - fcitx-googlepinyin 輸入法
 - Libreoffice
 - Riot-web
