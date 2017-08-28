@@ -1,9 +1,10 @@
 ---
-date: 2017-07-30
-tags: refracta
+date: 2017-08-01
 ---
 
-## Refracta live 鏡像下載
+## Refracta live 系统下載
+
+**注：现在已更换到 [LiveSlak 系统](https://mdrights.github.io/os-observe/posts/2017/08/Liveslak-intro.html)，但本系统仍会不定期更新。**
 
 本人其實自去年起便定期（每月）製作一份定製的live iso鏡像，採用的操作系統是之前介紹過的 Refracta GNU/Linux，它是基於 Debian GNU/Linux 的改版：Devuan 的一個分支版本（關於 Refracta 的介紹在 [這裏](https://mdrights.github.io/os-observe/posts/2016/11/Refracta-for-privacy.html)）。
 
@@ -16,6 +17,8 @@ tags: refracta
 [Refracta-201708.iso](https://mdrights.blaucloud.de/index.php/s/03oc1NgbKoI9RCR) 
 
 8月鏡像已更新，包含：  
+
+<!--more-->
 
 - 系統更新
 - ShadowsocksR (& Shadowsocks）
