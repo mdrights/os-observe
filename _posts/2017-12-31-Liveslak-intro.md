@@ -1,11 +1,14 @@
 ---
 date: 2017-08-28
 ---
+<br />
+<br />
+<br />
 
 ## 私人定制隐私加强的 live 操作系统：LiveSlak
 
-### 缘起
 
+### 缘起
 本人其實自去年起便定期（每月）製作一份定製的live iso鏡像，採用的操作系統是之前介紹過的 Devuan GNU/Linux，它是基於 Debian GNU/Linux 的，现在本人仍会不定期更新它，可看看 [以前的博文](https://mdrights.github.io/os-observe/posts/2017/08/Refracta-live.html)）。
 
 从今年（2017）9月开始，本人更换了平台，基于 [Slackware Linux](http://slackware.com) 制作 Live 系统，代码来自 [Alien Bob 的 LiveSlak](http://www.slackware.com/~alien/liveslak/)（感谢！）。 **目前还是beta测试状态，请谨慎使用。**  
@@ -37,7 +40,7 @@ md5sum : 90560f2156f5093db80cccca7c82cd7b
 
 
 ### 内含软件
-	（逐步添加 // 若你有需求或好想法可以告诉我～）
+__（逐步添加 // 若你有需求或好想法可以告诉我～）__
 - 系統更新
 - Shadowsocks-libev （执行：`ss-local -c <你的ssr配置文件>`）
 - fcitx 輸入法 （按 Ctrl + 空格 激活）
@@ -58,19 +61,21 @@ md5sum : 90560f2156f5093db80cccca7c82cd7b
     - MPlayer （视频播放软件）
 
 ### 你的隐私最重要
-**目前还是beta测试状态，请谨慎使用。**
+**目前还是beta测试状态，请谨慎使用。**  
 _本帖會持續更新，歡迎測試，今后会有更多强大特性喔，祝使用愉快～_   
 
 ### 源码 & 许可
-本人构建自己魔改的 LiveSlak 的代码在：[https://github.com/mdrights/LiveSlak](https://github.com/mdrights/LiveSlak)
-LiveSlak 作者的代码在：[http://bear.alienbase.nl/cgit/liveslak/](http://bear.alienbase.nl/cgit/liveslak/)
+本人构建自己魔改的 LiveSlak 的代码在：[https://github.com/mdrights/LiveSlak](https://github.com/mdrights/LiveSlak)  
+LiveSlak 作者的代码在：[http://bear.alienbase.nl/cgit/liveslak/](http://bear.alienbase.nl/cgit/liveslak/)  
 **欢迎参与协作 ;-)**
 
-=========
-Copyright 2014 - 2017 Eric Hameleers, Eindhoven, NL
-Copyright 2017 MDrights <mdrights at tutanota dot de>
-All rights reserved
+
+=========  
+Copyright 2014 - 2017 Eric Hameleers, Eindhoven, NL   
+Copyright 2017 MDrights <mdrights at tutanota dot de>   
+All rights reserved  
 
 只要本版权声明和许可声明出现在所有版本的本软件中，本软件即可被允许以任何目的（有偿或无偿地）使用、复制、修改和分发。
+
 =========
 
