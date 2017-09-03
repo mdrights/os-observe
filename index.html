@@ -1,0 +1,63 @@
+---
+layout: default
+date: 2017-04-06
+---
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>網絡隱私的田野</h1>
+          <p>—— 我能做的一點小事，就是在大數據和網絡實名制的時代，盡力地“反1984”“反棱鏡”。</p>
+
+  	  <p><b>在线隐私頻道</b>：#digitalrightscn:matrix.org ; </p> 
+	  <p> [IRC freenode] #DigitalRightsCN </p>
+
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/mdrights">mdrights</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by mattgraham</span>
+        </div>
+
+	<h3><a href="{{ site.baseurl }}">A Studio: In Defense of Online Privacy - 在线隐私工作室</a></h3>
+<!--	<p>为NGOers、社运人士、维权者提供以下技术支持：</p> -->
+	<ul>
+		<li>信息无障碍</li>
+		<li>通讯加密</li>
+		<li>隐匿上网（匿名通讯）</li>
+		<li>Linux 系統安全加固</li>
+	</ul>
+	<br />
+
+	<h3><a href="https://github.com/mdrights/Digital-rights">「在线隐私和数字权利」翻译系列：</a>（点这里参与协作）</h3>
+	<ul>
+		<li><a href="https://github.com/mdrights/Digital-rights/policies/GDPR/">《欧洲数据保护条例》解读</a></li>
+		<li>电子前哨基金会中文化（隐私/网络开放性相关）: <a href="https://riot.im/app">Riot.im #Digitalrightscn 频道</a></li>
+		<li><a href="https://github.com/mdrights/Tails-zh_CN/">Tails 网站中文化</a></li>
+	</ul>
+	<br />
+	<h3><a href="{{ site.baseurl }}/toc/">【文章目錄】</a></h3>
+	<br />
+	<hr>
+
+	<div class="posts">
+	{% for post in site.posts %}
+
+		<h3>
+		<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</h3>
+		
+		{{ post.excerpt }}
+		<br>
+		<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">繼續閱讀</a>
+		<div class="date">
+    			Posted on {{ post.date | date: "%B %e, %Y" }}
+ 		</div>	
+	<hr>
+	{% endfor %}
+	</div>
+
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    

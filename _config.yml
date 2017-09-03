@@ -1,0 +1,46 @@
+# SITE SETTINGS
+title: "網絡隱私的田野"
+tagline: "OS-Observe"
+description: "在大數據時代，我能做的小事，就是盡力地‘反1984’。"
+
+url: "https://mdrights.github.io/os-observe"
+baseurl: "https://mdrights.github.io/os-observe"
+timezone: UTC
+excerpt_separator: <!--more-->
+email: 
+
+# Build settings
+markdown: kramdown
+#redcarpet: 
+#  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+exclude: [Gemfile, Gemfile.lock, README.md]
+enforce_ssl: mdrights.github.io
+permalink: /posts/:year/:month/:title.html
+
+# Plugins
+gems:
+  - jemoji
+emoji:
+  src: "/images"
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      excerptable: true
+      sitemap: true
+      comments: true
+      layout: post
+  -
+    scope:
+      path: ""
+    values:
+      cc_by_sa: true
+  -
+    scope:
+      path: "tags"
+    values:
+      layout: tag

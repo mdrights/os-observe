@@ -1,0 +1,22 @@
+---
+layout: post
+permalink: /tags/
+---
+
+<br />
+<br />
+<br />
+<h1> [Tag] Tails</h1>
+
+<div class="posts">
+    <article class="post">
+    {% for post in post.tags.tails %}
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+	<div align="right">{{ post.date | date: "%B %e, %Y" }}</div>
+	<hr>
+        <br />
+    </article>
+    {% endfor %}
+</div>
+
+
