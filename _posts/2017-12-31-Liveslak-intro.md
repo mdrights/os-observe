@@ -1,9 +1,6 @@
 ---
-date: 2017-08-28
+date: 2017-09-03
 ---
-<br />
-<br />
-<br />
 
 ## 私人定制隐私加强的 live 操作系统：LiveSlak
 
@@ -15,8 +12,9 @@ date: 2017-08-28
 
 它主要有这样的特性：   
 
-- 面向中文用户 __（似乎是仅有的中文化的隐私向操作系统）__  
-- 安全/隐私类软件，并由本人亲自编译、打包（确保代码的安全和系统的纯净）
+- 面向中文用户 _（似乎是仅有的中文化的隐私向操作系统）_    
+- 隐私保护和墙国特色信息自由类软件
+- 应用类软件均由本人亲自编译、打包（确保代码的安全和系统的纯净）
 - 内核及系统加固（TODO）
 - live 系统：
 
@@ -32,31 +30,46 @@ date: 2017-08-28
 1. 放在虛擬機 （如 Virtualbox）裏使用 _（不会访问和修改本来的系统和文件）_；或 
 2. 刻錄到 USB盤上，插入任何一台电脑启动 _（不会访问和修改本来的系统和文件，除非你主动加载本地磁盘；还可以隨身攜帶哟～）_。   
 
-### 下载
-其他不再贅述，上干货 __（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）__ ：
+### 两款桌面
+- Xfce：轻量版（1.0G左右）应用较少 
+- MATE：完整版（约2.2G）
 
-[LiveSlak-mdrights-beta-0828.iso](https://mdrights.blaucloud.de/index.php/s/1TBusYed5Qbu5ah)   
-md5sum : 90560f2156f5093db80cccca7c82cd7b
+### 下载
+其他不再贅述，上干货 _（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）_ ：
+
+[LiveSlak-xfce-beta-0903.iso](https://mdrights.blaucloud.de/index.php/s/Nfkp9b3ROPbx9Nc)   
+md5sum: 19ae84cb28dab47ab63dc77bab3629a9
+
+[LiveSlak-mate-beta-0903.iso](https://drive.google.com/open?id=0BzDyGoE5b5SdcDREem15dVFONUE)  // Blau网盘似乎有问题，先换GDrive。   
+md5sum: 30252c67654dfc7f79c29a1b83f5dbe5
+
 
 ### 设备要求  
-__（可能有点罗嗦，但还是要提醒一下）__   
-- 目前只能在 x86 架构（人话就是普通的 Intel/AMD 电脑）运行；
-- 鉴于这是 GNU/Linux 系统，有时遇到奇葩的 显卡（如Nvidia） 或 无线网卡 可能会缺少驱动，这两种设备无法工作（这时请告诉我哈～发 issue吧）   
+_（可能有点罗嗦，但还是要提醒一下）_   
+- 目前在 x86_64 架构（人话就是大家都在用的 Intel/AMD 64位电脑）运行；
+- 鉴于这是 GNU/Linux 系统，有时遇到奇葩的 显卡（如Nvidia） 或 无线网卡 可能会缺少驱动，可能导致显示/网络问题（但在虚拟机里不受影响）
+- （如遇这种情况请告诉我哈～发issue吧）   
+
 
 ### 内含软件
-__（逐步添加 // 若你有需求或好想法可以告诉我～）__
+_（以上两款均有，并逐步添加更多 // 若你有需求或好想法可以告诉我～）_
 - 系統更新
-- Shadowsocks-libev （执行：`ss-local -c <你的ssr配置文件>`）
-- fcitx 輸入法 （按 Ctrl + 空格 激活）
-- NetworkManager 1.8.0 （网络连接工具，自带MAC地址随机化工具） 
-- macchiato （MAC地址随机化工具）
-- icecat-hardened (浏览器增强版，暂时需要从终端启动）
+- Shadowsocks-libev （执行：`ss-local -c <你的ss配置文件>`）
+- ShadowsocksR 3.1.2 (在 `/opt/` ，执行：`python local.py -c <你的ssr配置文件>`)
+- fcitx 輸入法 （按 `Ctrl + 空格` 激活；目前只有拼音）
+- Telegram 1.1.19
+- icecat-hardened (浏览器增强版）
+- Tor浏览器 7.0.4 ( & Tor 0.3.10 )
+- Tor-hardened （Tor 增强版)
 - proxychains （网络代理工具）
 - privoxy （网络代理工具）
+- NetworkManager 1.8.0 （网络连接工具，自带MAC地址随机化工具） 
 - firejail （沙盒，用于隔离应用软件）
-- Tor 0.3.10 （包括核心程序 + Tor浏览器 7.0.4）
-- Tor-hardened （Tor 增强版，暂时需要从 `/opt/tor-hardened/` 启动)
-- Telegram 1.1.19
+- macchiato （MAC地址随机化工具）
+
+- MATE版：
+    - VeraCrypt （加密工具；当然 GPG 肯定是自带哒）
+    - keepassx （密码管理器）
 
 - 其他日常：
     - Libreoffice 5.4
@@ -65,6 +78,9 @@ __（逐步添加 // 若你有需求或好想法可以告诉我～）__
     - Audacious (音频编辑软件）
     - GIMP （图像编辑软件）
     - GNOME-MPlayer （视频播放软件）
+
+- 完整的[自添加软件列表](https://github.com/mdrights/LiveSlak/blob/mdrights/pkglists/mdrights.lst)
+
 
 ### 你的隐私最重要
 **目前还是beta测试状态，请谨慎使用。**  
