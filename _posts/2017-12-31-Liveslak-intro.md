@@ -40,8 +40,8 @@ date: 2017-09-03
 [LiveSlak-xfce-beta-0903.iso](https://mdrights.blaucloud.de/index.php/s/Nfkp9b3ROPbx9Nc)   
 md5sum: 19ae84cb28dab47ab63dc77bab3629a9
 
-[LiveSlak-mate-beta-0903.iso](https://drive.google.com/open?id=0BzDyGoE5b5SdcDREem15dVFONUE)  // Blau网盘似乎有问题，先换GDrive。   
-md5sum: 30252c67654dfc7f79c29a1b83f5dbe5
+[LiveSlak-mate-beta-0904.iso](https://drive.google.com/open?id=0BzDyGoE5b5SdbHpHT3FhMlllOUU)  // Blau网盘似乎有问题，先换GDrive。   
+md5sum: 51192449823679ecbe9427709b2a4795
 
 
 ### 设备要求  
