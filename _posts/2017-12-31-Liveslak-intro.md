@@ -90,7 +90,8 @@ _本帖會持續更新，歡迎測試，今后会有更多强大特性喔，祝�
 ### 源码 & 许可
 本人构建自己魔改的 LiveSlak 的代码在：[https://github.com/mdrights/LiveSlak](https://github.com/mdrights/LiveSlak)  
 LiveSlak 作者的代码在：[http://bear.alienbase.nl/cgit/liveslak/](http://bear.alienbase.nl/cgit/liveslak/)  
-**欢迎参与协作 ;-)**
+**欢迎参与协作 ;-)**   
+**交流反饋**：到 [LiveSlak repo](https://github.com/mdrights/LiveSlak) 發個issue；或 IRC/Riot 頻道：#digitalrightscn    
 
 
 =========  
