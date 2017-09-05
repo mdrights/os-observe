@@ -17,9 +17,11 @@ date: 2017-08-01
 
 其他不再贅述，上乾貨（下載後記得做驗證；網盤服務商爲 Blaucloud.de 位於德國）：
 
-[Refracta-201708.iso](https://mdrights.blaucloud.de/index.php/s/03oc1NgbKoI9RCR) 
+[Refracta-20170904.iso](https://mdrights.blaucloud.de/index.php/s/fFKWLwIuhB8zd6w) 
+  md5sum: e7ca092b213dbb3b9caede52e07cfc8f
 
-8月鏡像已更新，包含：  
+
+9月鏡像已更新，包含：  
 
 <!--more-->
 
@@ -29,7 +31,7 @@ date: 2017-08-01
 - fcitx-googlepinyin 輸入法
 - Libreoffice
 - Riot-web
-- Tor （包括命令行版 + Tor浏览器 7.0）
+- Tor （包括命令行版 + Tor浏览器 7.0.4）
 - Calibre （电子书阅读器）
 - macchanger （MAC地址随机化工具）
 - Poedit & translate-tools (协助翻译的强大工具）

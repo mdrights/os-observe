@@ -31,14 +31,14 @@ date: 2017-09-03
 2. 刻錄到 USB盤上，插入任何一台电脑启动 _（不会访问和修改本来的系统和文件，除非你主动加载本地磁盘；还可以隨身攜帶哟～）_。   
 
 ### 两款桌面
-- Xfce：轻量版（1.0G左右）应用较少 
-- MATE：完整版（约2.2G）
+- Xfce：轻量版（1.0G左右） 
+- MATE：完整版（约1.9G）
 
 ### 下载
 其他不再贅述，上干货 _（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）_ ：
 
-[LiveSlak-xfce-beta-0903.iso](https://mdrights.blaucloud.de/index.php/s/Nfkp9b3ROPbx9Nc)   
-md5sum: 19ae84cb28dab47ab63dc77bab3629a9
+[LiveSlak-xfce-beta-0904.iso](https://mdrights.blaucloud.de/index.php/s/q8N5gIzmkzjUY6q)   
+md5sum: a584366fc645a6add494ff6446495c34
 
 [LiveSlak-mate-beta-0904.iso](https://drive.google.com/open?id=0BzDyGoE5b5SdbHpHT3FhMlllOUU)  // Blau网盘似乎有问题，先换GDrive。   
 md5sum: 51192449823679ecbe9427709b2a4795
