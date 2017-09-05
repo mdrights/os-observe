@@ -1,5 +1,5 @@
 ---
-date: 2017-08-01
+date: 2017-09-04
 ---
 <br />
 <br />
@@ -17,7 +17,7 @@ date: 2017-08-01
 
 其他不再贅述，上乾貨（下載後記得做驗證；網盤服務商爲 Blaucloud.de 位於德國）：
 
-[Refracta-20170904.iso](https://mdrights.blaucloud.de/index.php/s/fFKWLwIuhB8zd6w) 
+[Refracta-20170904.iso](https://mdrights.blaucloud.de/index.php/s/fFKWLwIuhB8zd6w)    
   md5sum: e7ca092b213dbb3b9caede52e07cfc8f
 
 
