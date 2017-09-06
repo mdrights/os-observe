@@ -37,11 +37,7 @@ date: 2017-09-03
 ### 下载
 其他不再贅述，上干货 _（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）_ ：
 
-[LiveSlak-xfce-beta-0905.iso](https://mdrights.blaucloud.de/index.php/s/03oc1NgbKoI9RCR)   
-md5sum: a584366fc645a6add494ff6446495c34
-
-[LiveSlak-mate-beta-0904.iso](https://drive.google.com/open?id=0BzDyGoE5b5SdbHpHT3FhMlllOUU)  // Blau网盘似乎有问题，先换GDrive。   
-md5sum: 51192449823679ecbe9427709b2a4795
+ --> [LiveSlak](https://github.com/mdrights/LiveSlak#usage)
 
 
 ### 设备要求  
