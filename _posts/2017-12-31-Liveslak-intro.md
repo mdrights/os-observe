@@ -32,12 +32,13 @@ date: 2017-09-03
 
 ### 两款桌面
 - Xfce：轻量版（1.0G左右） 
-- MATE：完整版（约1.9G）
+- MATE：完整版（约2.0G）
 
 ### 下载
 其他不再贅述，上干货 _（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）_ ：
 
- --> [LiveSlak](https://github.com/mdrights/LiveSlak#usage)
+ --> [下載 LiveSlak](https://github.com/mdrights/LiveSlak#download)   
+(系統的帳號/密碼：live/live (2333   
 
 
 ### 设备要求  
@@ -62,10 +63,9 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
 - NetworkManager 1.8.0 （网络连接工具，自带MAC地址随机化工具） 
 - firejail （沙盒，用于隔离应用软件）
 - macchiato （MAC地址随机化工具）
-
-- MATE版：
-    - VeraCrypt （加密工具；当然 GPG 肯定是自带哒）
-    - keepassx （密码管理器）
+- VeraCrypt （加密工具；当然 GPG 肯定是自带哒）
+- keepassx （密码管理器）
+- 防火牆 iptables (在桌面）
 
 - 其他日常：
     - Libreoffice 5.4
@@ -80,7 +80,6 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
 
 ### 你的隐私最重要
 **目前还是beta测试状态，请谨慎使用。**  
-對了，系統的帳號/密碼：live/live (2333   
 _本帖會持續更新，歡迎測試，今后会有更多强大特性喔，祝使用愉快～_   
 
 ### 源码 & 许可
