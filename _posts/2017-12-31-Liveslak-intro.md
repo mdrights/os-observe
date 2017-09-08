@@ -27,23 +27,26 @@ date: 2017-09-03
 那么你需要 live 操作系统^ ^。当需要打開網頁，和/或 打開別人發給你的文件（包括各種文檔、pdf、exe、圖片、音頻等）時，木马只会在当前环境中存活，它看到的只是当前空空如也的系统，并随着机器的关机而消失。
 
 ### 用法
-1. 放在虛擬機 （如 Virtualbox）裏使用 _（不会访问和修改本来的系统和文件）_；或 
-2. 刻錄到 USB盤上，插入任何一台电脑启动 _（不会访问和修改本来的系统和文件，除非你主动加载本地磁盘；还可以隨身攜帶哟～）_。   
+1. 放在虚拟机 （如 Virtualbox）里使用（须先安装 [Virtualbox虚拟机软件](https://www.virtualbox.org/wiki/Downloads)；或   
+2. 刻录到 USB盤上，插入任何一台电脑启动；（记得开机时进入BIOS设置为USB优先启动；刻录方法见[这里](https://rufus.akeo.ie/?locale=zh_CN)，或[这里](https://program-think.blogspot.com/2013/12/create-bootable-usb-stick-from-iso.html)。   
+- 这两种方法都不会访问和修改本来的系统和文件（除非你主动挂载）
+- 开机画面可以选择不同的语言（目前有英语、简体中文、台湾正体、香港繁体和日文）
 
 ### 两款桌面
-- Xfce：轻量版（1.0G左右） 
+- Xfce：轻量版（1.0G） 
 - MATE：完整版（约2.0G）
 
 ### 下载
 其他不再贅述，上干货 _（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）_ ：
 
  --> [下載 LiveSlak](https://github.com/mdrights/LiveSlak#download)   
-(系統的帳號/密碼：live/live (2333   
+(系統的帳號/密碼：live/live     
 
 
 ### 设备要求  
 _（可能有点罗嗦，但还是要提醒一下）_   
 - 目前在 x86_64 架构（人话就是大家都在用的 Intel/AMD 64位电脑）运行；
+- 如果你的电脑是UEFI启动的话，那很抱歉目前本系统有点 bug 还无法用 USB盘在这种系统上启动（传统BIOS的是可以的）；
 - 鉴于这是 GNU/Linux 系统，有时遇到奇葩的 显卡（如Nvidia） 或 无线网卡 可能会缺少驱动，可能导致显示/网络问题（但在虚拟机里不受影响）
 - （如遇这种情况请告诉我哈～发issue吧）   
 
@@ -52,19 +55,20 @@ _（可能有点罗嗦，但还是要提醒一下）_
 _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可以告诉我～）_
 - 系統更新
 - Shadowsocks-libev （执行：`ss-local -c <你的ss配置文件>`）
-- ShadowsocksR 3.1.2 (在 `/opt/` ，执行：`python local.py -c <你的ssr配置文件>`)
-- fcitx 輸入法 （按 `Ctrl + 空格` 激活；目前只有拼音）
+- ShadowsocksR 3.1.2 (在 `/opt/` ，请进入其两层目录后执行：`python local.py -c <你的ssr配置文件>`)
+- fcitx 輸入法 （按 `Ctrl + 空格` 激活；目前有拼音/双拼/五笔等）
 - Telegram 1.1.19
-- icecat-hardened (浏览器增强版）
-- Tor浏览器 7.0.4 ( & Tor 0.3.10 )
-- Tor-hardened （Tor 增强版)
-- proxychains （网络代理工具）
-- privoxy （网络代理工具）
-- NetworkManager 1.8.0 （网络连接工具，自带MAC地址随机化工具） 
+- icecat-hardened (浏览器增强版，在沙盒中运行）
+- firefox-hardened (火狐浏览器增强版；普通版也已装了相应插件，启动时请点击允许）
+- Tor浏览器 7.0.4 ( & Tor 0.3.0.10 )
+- Tor-hardened （Tor 增强版，在桌面)
+- NetworkManager 1.8.0 （网络连接工具，可点击`连接网络`图标连接WiFi（XFCE版），已MAC地址随机化处理） 
 - firejail （沙盒，用于隔离应用软件）
 - macchiato （MAC地址随机化工具）
 - VeraCrypt （加密工具；当然 GPG 肯定是自带哒）
-- keepassx （密码管理器）
+- keepassx （密码管理器；MATE版才有）
+- proxychains （网络代理工具）
+- privoxy （网络代理工具）
 - 防火牆 iptables (在桌面）
 
 - 其他日常：
@@ -86,7 +90,7 @@ _本帖會持續更新，歡迎測試，今后会有更多强大特性喔，祝�
 本人构建自己魔改的 LiveSlak 的代码在：[https://github.com/mdrights/LiveSlak](https://github.com/mdrights/LiveSlak)  
 LiveSlak 作者的代码在：[http://bear.alienbase.nl/cgit/liveslak/](http://bear.alienbase.nl/cgit/liveslak/)  
 **欢迎参与协作 ;-)**   
-**交流反饋**：到 [LiveSlak repo](https://github.com/mdrights/LiveSlak) 發個issue；或 IRC/Riot 頻道：#digitalrightscn    
+**交流反饋**：到 [LiveSlak repo](https://github.com/mdrights/LiveSlak) 發個issue；或 IRC/Riot 頻道：#digitalrightscn; Telegram: https://t.me/slackware_unix      
 
 
 =========  
