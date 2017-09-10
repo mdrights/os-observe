@@ -53,13 +53,12 @@ _（可能有点罗嗦，但还是要提醒一下）_
 
 ### 内含软件
 _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可以告诉我～）_
-- 系統更新
+- fcitx 輸入法 （按 `Ctrl + 空格` 激活；目前有拼音/双拼/五笔等）
 - Shadowsocks-libev （执行：`ss-local -c <你的ss配置文件>`）
 - ShadowsocksR 3.1.2 (在 `/opt/` ，请进入其两层目录后执行：`python local.py -c <你的ssr配置文件>`)
-- fcitx 輸入法 （按 `Ctrl + 空格` 激活；目前有拼音/双拼/五笔等）
 - Telegram 1.1.19
 - icecat-hardened (浏览器增强版，在沙盒中运行）
-- firefox-hardened (火狐浏览器增强版；普通版也已装了相应插件，启动时请点击允许）
+- firefox-hardened (火狐浏览器增强版；已装了相应插件（普通版也有），启动时请点击允许）
 - Tor浏览器 7.0.4 ( & Tor 0.3.0.10 )
 - Tor-hardened （Tor 增强版，在桌面)
 - NetworkManager 1.8.0 （网络连接工具，可点击`连接网络`图标连接WiFi（XFCE版），已MAC地址随机化处理） 
@@ -69,15 +68,19 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
 - keepassx （密码管理器；MATE版才有）
 - proxychains （网络代理工具）
 - privoxy （网络代理工具）
-- 防火牆 iptables (在桌面）
+- 防火牆 iptables （在桌面）
+- wipe, secure-delete （磁盘擦除工具 -注：一般仅对传统磁盘有效）
+- testdisk  （数据恢复工具）
 
 - 其他日常：
     - Libreoffice 5.4
-    - XPDF
-    - GVIM (文字编辑器）
-    - Audacious (音频编辑软件）
-    - GIMP （图像编辑软件）
-    - GNOME-MPlayer （视频播放软件）
+    - XPDF, Astril （看PDF）
+    - GVIM, Ted (文字编辑器）
+    - docx2txt  （docx格式转换 txt）
+    - Audacious (音频编辑）
+    - GIMP （图像编辑）
+    - Mplayer, GNOME-mplayer （视频播放）
+    - xsane （扫描）
 
 - 完整的[自添加软件列表](https://github.com/mdrights/LiveSlak/blob/mdrights/pkglists/mdrights.lst)
 
