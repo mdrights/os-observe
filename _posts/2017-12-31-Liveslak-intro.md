@@ -1,5 +1,5 @@
 ---
-date: 2017-09-10
+date: 2017-09-17
 ---
 
 ## 私人定制隐私加强的 live 操作系统：LiveSlak
@@ -53,8 +53,8 @@ date: 2017-09-10
 
 ### 下载
 两款桌面
-- Xfce：轻量版（1.0G） 
-- MATE：完整版（约2.0G）
+- Xfce：最小安裝版（1.0G） 
+- cinnamon：完整版（约2.0G）
 
 其他不再贅述，上干货 _（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）_ ：
 
@@ -80,11 +80,12 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
 - firefox-hardened (火狐浏览器增强版；已装了相应插件（普通版也有），启动时请点击允许）
 - Tor浏览器 7.0.4 ( & Tor 0.3.0.10 )
 - Tor-hardened （Tor 增强版，在桌面)
-- NetworkManager 1.8.0 （网络连接工具，可点击`连接网络`图标连接WiFi（XFCE版），已MAC地址随机化处理） 
+- NetworkManager 1.8.0 （网络连接工具，可点击`连接网络`图标连接WiFi（XFCE版才需要），已MAC地址随机化处理） 
 - firejail （沙盒，用于隔离应用软件）
 - macchiato （MAC地址随机化工具）
 - VeraCrypt （加密工具；当然 GPG 肯定是自带哒）
-- keepassx （密码管理器；MATE版才有）
+- keepassx （密码管理器；cinnamon版才有）
+- Jitsi	(加密視頻通訊軟件，cinnamon版才有)
 - proxychains （网络代理工具）
 - privoxy （网络代理工具）
 - 防火牆 iptables （在桌面）
@@ -102,6 +103,7 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
     - xsane （扫描）
 
 - 完整的[自添加软件列表](https://github.com/mdrights/LiveSlak/blob/mdrights/pkglists/mdrights.lst)
+- 更詳細的請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.md)
 
 
 ### 你的隐私最重要
@@ -112,7 +114,7 @@ _本帖會持續更新，歡迎測試，今后会有更多强大特性喔，祝�
 本人构建自己魔改的 LiveSlak 的代码在：[https://github.com/mdrights/LiveSlak](https://github.com/mdrights/LiveSlak)  
 LiveSlak 作者的代码在：[http://bear.alienbase.nl/cgit/liveslak/](http://bear.alienbase.nl/cgit/liveslak/)  
 **欢迎参与协作 ;-)**   
-**交流反饋**：到 [LiveSlak repo](https://github.com/mdrights/LiveSlak) 發個issue；或 IRC/Riot 頻道：#digitalrightscn; Telegram: https://t.me/slackware_unix      
+**交流反饋**：到 [LiveSlak repo](https://github.com/mdrights/LiveSlak) 發個issue；或 IRC/Riot 頻道：#digitalrightscn; 或 Telegram: https://t.me/joinchat/EMyvPA4M5YBESP74ID9qIA      
 
 
 =========  
