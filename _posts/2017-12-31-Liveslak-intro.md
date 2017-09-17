@@ -103,7 +103,7 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
     - xsane （扫描）
 
 - 完整的[自添加软件列表](https://github.com/mdrights/LiveSlak/blob/mdrights/pkglists/mdrights.lst)
-- 更詳細的請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.md)
+- 更詳細的請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.html)
 
 
 ### 你的隐私最重要
