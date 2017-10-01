@@ -12,22 +12,27 @@ date: 2017-09-17
 	网络连接工具，如果你是用 USB盤啓動本系統的 XFCE版，請点击 `连接网络` 图标连接WiFi；用虛擬機方式或其他版本則不必    
 	（另，已MAC地址随机化处理可更好保護你的網上身份） 
 - icecat-hardened     
-	(浏览器增强版，在沙盒中运行，並在首頁可選擇禁止Javascript運行等；特別推薦使用icecat，如網頁顯示有問題再轉 firefox吧~）
+	(浏览器增强版，在沙盒中运行，並在首頁可選擇禁止Javascript運行等；已默认设置为Socks代理（用于翻墙）和无痕浏览（但需在第二次启动浏览器时才生效）等；
+	特別推薦使用icecat，如網頁顯示有問題再轉 firefox吧~）
 - firefox-hardened     
-	(火狐浏览器增强版；已装了 Noscript, HTTPSeverywhere 插件（普通版也有），启动时请点击允许；〔警告〕請謹慎安裝第三方插件！）
-- Libreoffice 5.4    
-	(文檔編輯套件）
+	(火狐浏览器增强版；已装了 Noscript, HTTPSeverywhere 插件（普通版也有），启动时请点击允许，「建议用作墙内浏览」；〔警告〕請謹慎安裝第三方插件！）
+- Libreoffice 5.4.0    
+	(文檔編輯套件；已加入中文包，即界面是中文的了）
 
 ### 穿牆
-- Shadowsocks-libev    
+- Shadowsocks-libev 3.1.0   
 	（执行：`ss-local -c <你的ss配置文件>`）
 - ShadowsocksR 3.1.2    
 	(進入 `/opt/shadowsocksr/shadowsocks`, 执行：`python local.py -c <你的ssr配置文件>`)
+- ssr脚本   
+	（在桌面；点击前请把你的 ssr 配置文件(json) 放在桌面并命名为 `ssr.json`。）   
+- ss-redir透明代理脚本（试验）
+	（在桌面；点击前请把你的 ss 配置文件(json) 放在桌面并命名为 `ss-libev.json`。它随后会启动防火墙并要求输入密码 `live`）   
 
 ### 隱匿/隱身
 - Tor浏览器 7.0.4 ( & Tor 0.3.0.10 )    
 	（記得啓動時，第一個問題選否（我們不用網橋），第二個選是（我們走本地代理），在Socks5處選擇 127.0.0.1 端口 1080 ）
-- Tor-hardened     
+- Tor-nonprism(hardened)     
 	（Tor 高級模式，功能包括：
 	1. Tor 會以 Stream Isolation模式開啓——即每類應用走不同的通道，避免監視者能通過對同一迴路的流量進行比對關聯而識別出用戶的身份（具體請自行谷歌~
 	2. 開啓帶有特別規則的防火牆，讓本地所有DNS請求強制走 Tor 隧道，避免 DNS 泄漏。啓動防火牆時需要輸入用戶密碼 `live`；  
@@ -41,6 +46,8 @@ date: 2017-09-17
 	(加密視頻通訊軟件，cinnamon版才有；記得開啓 OTR 和 ZRTP 加密協議)
 - Hexchat    
 	( IRC 客戶端，無需註冊帳戶；記得本軟件最好要 **走代理（包括翻牆或Tor）再用** ！！！否則會直接暴露你所用的 IP 地址，別說我沒提醒你蛤~）
+- Signal-Desktop 桌面版
+	（加密通讯软件；须先在移动设备安装Signal客户端，并有帐号）
 
 ### 加密大法   
 - VeraCrypt     

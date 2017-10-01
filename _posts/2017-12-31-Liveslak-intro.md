@@ -72,28 +72,29 @@ _（可能有点罗嗦，但还是要提醒一下）_
 
 ### 内含软件
 _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可以告诉我～）_
-- fcitx 輸入法 （按 `Ctrl + 空格` 激活；目前有拼音/双拼/五笔等）
-- Shadowsocks-libev （执行：`ss-local -c <你的ss配置文件>`）
-- ShadowsocksR 3.1.2 (在 `/opt/` ，请进入其两层目录后执行：`python local.py -c <你的ssr配置文件>`)
-- Telegram 1.1.19
-- icecat-hardened (浏览器增强版，在沙盒中运行）
-- firefox-hardened (火狐浏览器增强版；已装了相应插件（普通版也有），启动时请点击允许）
+- fcitx 輸入法 
+- Shadowsocks-libev 
+- ShadowsocksR 
+- Telegram 
+- icecat-hardened 
+- firefox-hardened 
 - Tor浏览器 7.0.4 ( & Tor 0.3.0.10 )
-- Tor-hardened （Tor 增强版，在桌面)
-- NetworkManager 1.8.0 （网络连接工具，可点击`连接网络`图标连接WiFi（XFCE版才需要），已MAC地址随机化处理） 
-- firejail （沙盒，用于隔离应用软件）
-- macchiato （MAC地址随机化工具）
-- VeraCrypt （加密工具；当然 GPG 肯定是自带哒）
-- keepassx （密码管理器；cinnamon版才有）
-- Jitsi	(加密視頻通訊軟件，cinnamon版才有)
-- proxychains （网络代理工具）
-- privoxy （网络代理工具）
-- 防火牆 iptables （在桌面）
-- wipe, secure-delete （磁盘擦除工具 -注：一般仅对传统磁盘有效）
-- testdisk  （数据恢复工具）
+- Tor-hardened 
+- NetworkManager 1.8.0  
+- firejail 
+- macchiato 
+- VeraCrypt 
+- keepassx 
+- Jitsi	
+- proxychains 
+- privoxy 
+- 防火牆 iptables 
+- wipe, secure-delete 
+- testdisk  
+- Signal-Desktop
 
 - 其他日常：
-    - Libreoffice 5.4
+    - Libreoffice （写文章）
     - XPDF, Astril （看PDF）
     - GVIM, Ted (文字编辑器）
     - docx2txt  （docx格式转换 txt）
@@ -103,7 +104,7 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
     - xsane （扫描）
 
 - 完整的[自添加软件列表](https://github.com/mdrights/LiveSlak/blob/mdrights/pkglists/mdrights.lst)
-- 更詳細的請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.html)
+- 更詳細的说明請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.html)
 
 
 ### 你的隐私最重要
@@ -124,5 +125,24 @@ All rights reserved
 
 只要本版权声明和许可声明出现在所有版本的本软件中，本软件即可被允许以任何目的（有偿或无偿地）使用、复制、修改和分发。
 
-=========
+   Permission to use, copy, modify, and distribute this software for
+   any purpose with or.without fee is hereby granted, provided that
+   the above copyright notice and this permission notice appear in all
+   copies.
+
+   THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED
+   WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+   MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+   IN NO EVENT SHALL THE AUTHORS AND COPYRIGHT HOLDERS AND THEIR       
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+   USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+   ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+   OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+   OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+   SUCH DAMAGE.
+ -----------------------------------------------------------------------------
+
+
 
