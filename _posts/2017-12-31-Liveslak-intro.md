@@ -42,7 +42,7 @@ date: 2017-09-30
 1. 放在虚拟机 （如 Virtualbox）里使用（须先安装 [Virtualbox虚拟机软件](https://www.virtualbox.org/wiki/Downloads)；或   
 2. 刻录到 USB盤上，插入任何一台电脑启动；（记得开机时进入BIOS设置为USB优先启动；刻录方法见[这里](https://rufus.akeo.ie/?locale=zh_CN)，或[这里](https://program-think.blogspot.com/2013/12/create-bootable-usb-stick-from-iso.html)。   
 - 这两种方法都不会访问和修改本来的系统和文件（除非你主动挂载）
-- 开机画面可以选择不同的语言（目前有英语、简体中文、台湾正体、香港繁体和日文）
+- 在开机画面可以选择不同的语言（目前有英语、简体中文、台湾正体、香港繁体、藏文、维吾尔文和日文）
 
 ### 【应对策略】    
 1. 当前系统不保留重要敏感文件（反正也不會保存）；
@@ -70,14 +70,13 @@ _（可能有点罗嗦，但还是要提醒一下）_
 - （如遇这种情况请告诉我哈～发issue吧）   
 
 
-### 内含软件
-_（以上两款均有，并逐步添加更多 // 若你有需求或好想法可以告诉我～）_
+### 主要软件
+_（注：XFCE版只有部分软件，cinnamon版为完整版：会逐步添加更多 // 若你有需求或好想法可以告诉我～）_
 - fcitx 輸入法 
 - Shadowsocks-libev 
 - ShadowsocksR 
 - Telegram 
 - icecat-hardened 
-- firefox-hardened 
 - Tor浏览器 7.0.4 ( & Tor 0.3.0.10 )
 - Tor-hardened 
 - NetworkManager 1.8.0  
@@ -92,6 +91,8 @@ _（以上两款均有，并逐步添加更多 // 若你有需求或好想法可
 - wipe, secure-delete 
 - testdisk  
 - Signal-Desktop
+- Lantern 蓝灯
+- Tor Messenger
 
 - 其他日常：
     - Libreoffice （写文章）
