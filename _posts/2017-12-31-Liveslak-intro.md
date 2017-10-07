@@ -51,13 +51,14 @@ permalink: /Liveslak-intro/
 3. 严格区分/定义每次使用的目的：**是当作一个隔离的环境（如看一份重要的文件），还是当作一个对不信任的文件/程序的载体**。 也就是说，如果你这次开机选择的是后者，就请尽量不要把放了重要文件的 USB 盤挂载到当前环境；
 4. 下载下来的文件就不要再在宿主环境里打开了（就是安装了 Virtualbox的那个系统））
 
+更多用法请前往：[《用户手册》](https://mdrights.github.io/os-observe/docs/LiveSlak-Users-Guide.html)    
 
 ### 下载
 两款桌面
 - Xfce：最小安裝版（1.0G） 
 - cinnamon：完整版（约2.0G）
 
-其他不再贅述，上干货 _（下載後記得做校验；網盤服務商爲 Blaucloud.de 位於德國）_ ：
+其他不再贅述，上干货 _（下載後記得做校验）_ ：
 
  --> [下載 LiveSlak](https://github.com/mdrights/LiveSlak#download)   
 (系統的帳號/密碼：live/live     
