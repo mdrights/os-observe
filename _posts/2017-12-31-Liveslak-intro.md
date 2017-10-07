@@ -1,5 +1,6 @@
 ---
-date: 2017-09-30
+date: 2017-10-06
+permalink: /Liveslak-intro/
 ---
 
 ## 私人定制隐私加强的 live 操作系统：LiveSlak
@@ -91,8 +92,9 @@ _（注：XFCE版只有部分软件，cinnamon版为完整版：会逐步添加�
 - wipe, secure-delete 
 - testdisk  
 - Signal-Desktop
-- Lantern 蓝灯
+- Lantern 蓝灯 （暂时移除）
 - Tor Messenger
+- v2ray
 
 - 其他日常：
     - Libreoffice （写文章）
