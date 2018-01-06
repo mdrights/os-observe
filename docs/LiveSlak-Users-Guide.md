@@ -49,6 +49,8 @@ date: 2017-10-06
 	（执行：`ss-local -c <你的ss配置文件>`）
 - ShadowsocksR 3.1.2    
 	(進入 `/opt/shadowsocksr/shadowsocks`, 执行：`python local.py -c <你的ssr配置文件>`)
+- Shadowsocks 2.9.0    
+	(進入 `/opt/shadowsocks-git/shadowsocks`, 执行：`python local.py -c <你的ss配置文件>`)
 - ssr脚本   
 	（在桌面；点击前请把你的 ssr 配置文件(json) 放在桌面并命名为 `ssr.json`。）   
 - ss-redir透明代理脚本（试验）
@@ -62,7 +64,7 @@ date: 2017-10-06
 
 
 ### 隱匿/隱身
-- Tor Browser 洋葱浏览器 7.0.4 ( & Tor 0.3.0.10 )    
+- Tor Browser 洋葱浏览器 ( & Tor 命令行版 )    
 	（記得啓動時，第一個問題選否（我們不用網橋），第二個選是（我們走本地代理），在Socks5處選擇 127.0.0.1 端口 1080 ）
 	（或者，使用网桥；目前（2017.11）推荐选 meek-amazon，或 meek-azure。）    
 - Tor Messenger 即时通讯软件   
