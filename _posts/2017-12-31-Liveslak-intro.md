@@ -89,13 +89,14 @@ _（注：XFCE版只有部分软件，cinnamon版为完整版：会逐步添加�
 - Jitsi	
 - proxychains 
 - privoxy 
-- 防火牆 iptables 
 - wipe, secure-delete 
 - testdisk  
 - Signal-Desktop
-- Lantern 蓝灯 （暂时移除）
 - Tor Messenger
 - v2ray
+- Riot-web
+- qTox
+- ~~Lantern 蓝灯 （暂时移除）~~
 
 - 其他日常：
     - Libreoffice （写文章）
