@@ -9,7 +9,7 @@ permalink: /Liveslak-intro/
 ### 缘起
 本人其實自去年起便定期（每月）製作一份定製的live iso鏡像，採用的操作系統是之前介紹過的 Devuan GNU/Linux，它是基於 Debian GNU/Linux 的，现在本人仍会不定期更新它，可看看 [以前的博文](https://mdrights.github.io/os-observe/posts/2017/08/Refracta-live.html)）。
 
-从今年（2017）9月开始，本人更换了平台，基于 [Slackware Linux](http://slackware.com) 制作 Live 系统，代码来自 [Alien Bob 的 LiveSlak](http://www.slackware.com/~alien/liveslak/)（感谢！）。 **目前还是beta测试状态，请谨慎使用。**  
+从今年（2017）9月开始，本人更换了平台，基于 [Slackware Linux](http://slackware.com) 制作 Live 系统，代码来自 [Alien Bob 的 LiveSlak](http://www.slackware.com/~alien/liveslak/)（感谢！）。    
 
 它主要有这样的特性：   
 
@@ -19,7 +19,10 @@ permalink: /Liveslak-intro/
 - 内核及系统加固（TODO）
 - live 系统：
 
+![LiveSlak Screenshot]({{ site.baseurl }}/images/LiveSlak-ATGFW_2018.02.png)
+
 <!--more-->
+
 > live系統的修改，和用户产生、放置的所有文件都**不會保存**，每次重啓都會還原到製作時的狀態。這一招就能抵禦諸如木馬的长期駐留，最大限度降低它的破壞。
 
 ### 为什么需要它
@@ -54,10 +57,7 @@ permalink: /Liveslak-intro/
 更多用法请前往：[《用户手册》](https://mdrights.github.io/os-observe/docs/LiveSlak-Users-Guide.html)    
 
 ### 下载
-两款桌面
-- Xfce：最小安裝版（1.0G） 
-- cinnamon：完整版（约2.0G）
-
+自 2018.02 起提供一个完整的 xfce 版本。    
 其他不再贅述，上干货 _（下載後記得做校验）_ ：
 
  --> [下載 LiveSlak](https://github.com/mdrights/LiveSlak#download)   
@@ -73,15 +73,15 @@ _（可能有点罗嗦，但还是要提醒一下）_
 
 
 ### 主要软件
-_（注：XFCE版只有部分软件，cinnamon版为完整版：会逐步添加更多 // 若你有需求或好想法可以告诉我～）_
+_（若你有需求或好想法可以告诉我～）_
 - fcitx 輸入法 
 - Shadowsocks-libev 
 - ShadowsocksR 
 - Telegram 
 - icecat-hardened 
-- Tor浏览器 7.0.4 ( & Tor 0.3.0.10 )
+- Tor浏览器 ( & Tor )
 - Tor-hardened 
-- NetworkManager 1.8.0  
+- NetworkManager
 - firejail 
 - macchiato 
 - VeraCrypt 
@@ -113,7 +113,6 @@ _（注：XFCE版只有部分软件，cinnamon版为完整版：会逐步添加�
 
 
 ### 你的隐私最重要
-**目前还是beta测试状态，请谨慎使用。**  
 _本帖會持續更新，歡迎測試，今后会有更多强大特性喔，祝使用愉快～_   
 
 ### 源码 & 许可
@@ -125,7 +124,7 @@ LiveSlak 作者的代码在：[http://bear.alienbase.nl/cgit/liveslak/](http://b
 
 =========  
 Copyright 2014 - 2017 Eric Hameleers, Eindhoven, NL   
-Copyright 2017 MDrights <mdrights at tutanota dot de>   
+Copyright 2017,2018 MDrights <mdrights at tutanota dot de>   
 All rights reserved  
 
 只要本版权声明和许可声明出现在所有版本的本软件中，本软件即可被允许以任何目的（有偿或无偿地）使用、复制、修改和分发。

@@ -1,7 +1,9 @@
 ---
 layout: post
-date: 2017-10-06
+date: 2018-02-19
 ---
+
+## LiveSlak 用户手册   
 
 **系统帐号/密码：live/live**  
 **root帐号密码：toor**     
@@ -25,38 +27,32 @@ date: 2017-10-06
 1. 放在虚拟机 （如 Virtualbox）里使用（须先安装 [Virtualbox虚拟机软件](https://www.virtualbox.org/wiki/Downloads)；或   
 2. 刻录到 USB盤上，插入任何一台电脑启动；（记得开机时进入BIOS设置为USB优先启动；刻录方法见[这里](https://rufus.akeo.ie/?locale=zh_CN)，或[这里](https://program-think.blogspot.com/2013/12/create-bootable-usb-stick-from-iso.html)。   
 - 这两种方法都不会访问和修改本来的系统和文件（除非你主动挂载）
-- 在开机画面可以选择不同的语言（目前有英语、简体中文、台湾正体、香港繁体、藏文、维吾尔文和日文）
+- 在开机画面可以选择不同的语言（目前有英语、简体中文、台湾正体、香港繁体、藏文、维吾尔文和日文；注：软件的中文化程度取决于各个软件项目作者和志愿者的努力，会有翻译不完整或错误的地方，本项目并不对此负责。）
 
 ## 软件使用方法
 
 ### 基本需求
 - fcitx 輸入法     
 	（按 `Ctrl + 空格` 激活；目前有拼音/双拼/五笔/注音等）
-- NetworkManager 1.8.0    
-	网络连接工具，如果你是用 USB盤啓動本系統的 XFCE版，請点击 `连接网络` 图标连接WiFi；用虛擬機方式或其他版本則不必    
+- NetworkManager
+	网络连接工具，如果你是用 USB盤啓動本系統的 XFCE版，請点击右上角图标连接WiFi（如果点出的菜单没有见到热点，很可能是本系统没有该机器无线网卡的驱动）；用虛擬機方式或其他版本則不必特意设置。    
 	（另，已MAC地址随机化处理可更好保護你的網上身份） 
 - icecat-hardened     
 	(浏览器增强版，在沙盒中运行，並并已安装了 `Noscript, HTTPSeverywhere, Privacy Badger` 插件及中文语言包；已默认设置为Socks代理（用于翻墙）和无痕浏览等。**记得刚开机时需要先开启一次 icecat 然后才能启动 icecat-hardened** （配置才能生效）；  
 	特別推薦使用icecat，如網頁顯示有問題请试试把 `Noscript` 设置为 「临时允许本页面所有对象」，再不行再轉 firefox吧；  
 	用它下载东西时请**不要**在浏览器里直接打开或“打开所在文件夹”（下载按钮里面的那个文件夹按钮），因为这是个浏览器的bug，而且不这样操作更安全。）   
-- Libreoffice 5.4.0    
+- Libreoffice 
 	（文檔編輯套件；已加入中文包，即界面是中文的了）
 - 挂载本地硬盘或外置存储（如U盘/移动硬盘等）    
 	（一般情况下直接在文件管理器左侧就能看到你机器本地的磁盘（分区）了；直接插入U盘一般都能识别。如有弹出提示要求密码的话，请输入 root（超级管理员）的密码：toor）    
 
 ### 穿牆
-- Shadowsocks-libev 3.1.0   
+- Shadowsocks-libev 
 	（执行：`ss-local -c <你的ss配置文件>`）
-- ShadowsocksR 3.1.2    
-	(進入 `/opt/shadowsocksr/shadowsocks`, 执行：`python local.py -c <你的ssr配置文件>`)
-- Shadowsocks 2.9.0    
+- Shadowsocks
 	(進入 `/opt/shadowsocks-git/shadowsocks`, 执行：`python local.py -c <你的ss配置文件>`)
-- ssr脚本   
-	（在桌面；点击前请把你的 ssr 配置文件(json) 放在桌面并命名为 `ssr.json`。）   
 - ss-redir透明代理脚本（试验）
-	（在桌面；点击前请把你的 ss 配置文件(json) 放在桌面并命名为 `ss-libev.json`。它随后会启动防火墙并要求输入密码 `live`）   
-- Lantern 蓝灯    
-	（暂时移除，并非在所有网络环境中有效）
+	（在桌面菜单的「翻越长城」；点击前请把你的 ss 配置文件(json) 放在桌面并命名为 `ss-libev.json`。它随后会启动防火墙并要求输入密码 `live`）   
 - v2ray    
 	(方法一：把你的配置文件放在桌面上并命名为 `v2ray.json`，然后点击 v2ray 图标；  
 	 方法二：打开一个终端，执行命令：`v2ray -config <你的配置文件及路径>`;    
@@ -77,7 +73,7 @@ date: 2017-10-06
 	4. 開啓 sandbox沙盒模式 （待完成）   
  
 ### 安全地聯繫 (部分软件只在cinnamon版才有)  
-- Telegram 1.1.19    
+- Telegram 
 	(記得可在設置裏設置 socks（1080）代理（翻牆），或 Tor（9050））
 - Tor-messenger   
 	(XMPP协议的通讯工具，Tor版）    
@@ -96,9 +92,11 @@ date: 2017-10-06
 - VeraCrypt     
 	（加密工具；）
 - keepassx    
-	（密码管理器；cinnamon版才有）
-- GnuPG 2.1    
-	(当然啦， GPG 是每個 GNU/Linux 都自带哒）
+	（密码管理器）
+- GnuPG     
+	(当然啦，GPG 是每款 GNU/Linux 都自带哒）
+- gpa   
+	(PGP密钥管理器)
 
 ### 毀屍滅跡 vs 反毀屍滅跡   
 - wipe, secure-delete     
@@ -113,7 +111,7 @@ date: 2017-10-06
 
 ### 一些高級用法
 - 防火牆 iptables    
-	（在桌面點擊，會要求輸入用戶密碼 `live`；配有一些簡單的規則）
+	（在桌面菜单「网络」里，會要求輸入用戶密碼 `live`；配有一些簡單的規則）
 - firejail    
 	（沙盒，用于隔离应用软件，執行 `firejail` 後接你想要運行的程序即可）
 - macchiato    
