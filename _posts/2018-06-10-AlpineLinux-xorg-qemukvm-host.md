@@ -25,7 +25,7 @@ Make AlpineLinx with Xorg as Qemu/KVM host
 
 你需要安裝這些包（從官方源里）：  
 ```bash
-	apk add qemu-system-x86_64 qemu-gtk netcat-openbsd libvirt-daemon libvirt dbus polkit qemu-img virt-manager
+apk add qemu-system-x86_64 qemu-gtk netcat-openbsd libvirt-daemon libvirt dbus polkit qemu-img virt-manager
 ```
 
 開機自動加載內核模塊：  
@@ -41,9 +41,11 @@ rc-update add dbus
 ```
 
 把你使用的用戶加到這些組里：  
-`addgroup user libvirt `    
-`addgroup user qemu`   
-`addgroup user kvm`    
+```
+addgroup user libvirt     
+addgroup user qemu   
+addgroup user kvm    
+```
 
 (這裏最好重啓機器一下，穩)
 
