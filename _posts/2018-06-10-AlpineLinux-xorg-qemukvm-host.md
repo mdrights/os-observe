@@ -7,6 +7,7 @@ Make AlpineLinx with Xorg as Qemu/KVM host
 
 [Alpine Linux](https://alpinelinux.org)最開始時不太出名，後來成爲很多廠商產品的Docker里的容器（container）載體後，名聲大振。而且最重要的是 Grsecurity 的加固內核是它的標配，這就是內核級的高安全性了。  
 
+<!--more-->
 
 ### 0x01
 下載它（去官網即可），dd到USB盤，啓動之。然後很簡單，執行 `setup-alpine` 腳本一路往下走。我是打算用sys模式安裝到（另一個USB盤）。（有哪些模式請參考官網wiki的安裝教程）  
