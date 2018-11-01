@@ -1,12 +1,15 @@
 ---
+date: 2018-11-01
 ---
 
 ## 我的 RSS 訂閱
 時隔一年，來個更新。總共129個訂閱feeds。  
 感謝 RSS 這技術，對抗信息封鎖還是很重要的。
 
+已更新：61个订阅 转到 Inoreader（开源），抛弃 Feedly。
 
-[My RSS feeds]({{ site.baseurl }}/docs/my-feeds-2018-06-16.opml)
+[My RSS feeds on Inoreader]({{ site.baseurl }}/docs/subscriptions.xml)    
+[My RSS feeds on Feedly]({{ site.baseurl }}/docs/my-feeds-2018-06-16.opml)
 
 <!--more-->
 尤其這幾個最愛：
