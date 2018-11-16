@@ -11,6 +11,8 @@ permalink: /antig/
 
 Live 型系統的好處就不說了，之前已介紹過：[LiveSlak 系統介紹](https://mdrights.github.io/os-observe/Liveslak-intro/)。
 
+<!--more-->
+
 ### 主要特性： 
 
 - 基於 Devuan GNU+Linux, 軟件包豐富（大部分與 Debian 通用），軟件嚴謹可靠；

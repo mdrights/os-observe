@@ -2,6 +2,8 @@
 title: 如何校验Signal apk包
 ---
 
+## 如何校验Signal apk包
+
 不知不觉，[Signal](signal.org)（端对端加密通讯软件）官方已经允许了直接下载和安装Signal (安卓版)了。即它不再一定依赖Google框架GCM。这对在天朝的安卓用户来说真是一大利好，23333。
 
 下载地址：[https://signal.org/android/apk/](https://signal.org/android/apk/)  
@@ -15,6 +17,8 @@ title: 如何校验Signal apk包
 
 官方给出了其apk包的 签名证书的SHA256校验值（注意是TLS证书，呵呵）。  
 这里可能难道了非技术人士/极客了，校验方法在这里：
+
+<!--more-->  
 
 如果你是 GNU/Linux 用户 （已安装openjdk）：
 

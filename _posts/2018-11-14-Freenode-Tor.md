@@ -1,6 +1,7 @@
 ---
 title: 用 Tor 连接 IRC (Freenode)
 ---
+## 用 Tor 连接 IRC (Freenode)
 
 用过 IRC 的人都知道，登录 IRC 后你的 IP 就会显露出来，咋整？（除非你跟管理员要 cloak）   
 
@@ -8,7 +9,9 @@ title: 用 Tor 连接 IRC (Freenode)
 
 当然用 Tor 网络直接访问 freenode.net 还是会被拒的，正确姿势就是要从 Tor 网络访问他们的暗网地址：
 
-还要满足他们的条件，下面基本按照 [weechat 文档](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication)操作即可（其他 IRC 客户端的文档在[这里](https://freenode.net/kb/answer/sasl)：  
+<!--more-->
+
+还要满足他们的条件，下面基本按照 [weechat 文档](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication)操作即可：（其他 IRC 客户端的操作文档在[这里](https://freenode.net/kb/answer/sasl)）  
 
 - 启动 Tor，在 weechat 里设置其代理走 Tor：   
 	- 添加 Tor 代理：  
