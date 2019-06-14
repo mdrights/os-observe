@@ -75,7 +75,7 @@
       <outline text="NGOCN 的收藏" title="NGOCN 的收藏" type="rss" xmlUrl="https://www.douban.com/feed/people/ngocn/interests" htmlUrl="https://www.douban.com/people/ngocn/"/>
       <outline text="零八宪章" title="零八宪章" type="rss" xmlUrl="http://08charterbbs.blogspot.com/feeds/posts/default" htmlUrl="http://08charterbbs.blogspot.com/"/>
       <outline text="中国数字时代" title="中国数字时代" type="rss" xmlUrl="http://feeds.feedburner.com/chinadigitaltimes/IyPt" htmlUrl="http://chinadigitaltimes.net/chinese"/>
-      <outline text="端傳媒 | Initium Media" title="端傳媒 | Initium Media" type="rss" xmlUrl="http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Ffeeds.initium.news%2Ftheinitium&amp;max=3" htmlUrl="http://feeds.initium.news/theinitium"/>
+	  <outline text="端傳媒 | Initium Media" title="端傳媒 | Initium Media" type="rss" xmlUrl="http://feeds.initium.news/theinitium" htmlUrl="http://feeds.initium.news/theinitium"/>
       <outline text="政见 CNPolitics.org" title="政见 CNPolitics.org" type="rss" xmlUrl="http://cnpolitics.org/feed/" htmlUrl="http://cnpolitics.org/"/>
       <outline text="China | The Guardian" title="China | The Guardian" type="rss" xmlUrl="http://feeds.guardian.co.uk/theguardian/world/china/rss" htmlUrl="http://www.theguardian.com/world/china"/>
       <outline text="Economist/China Politics" title="Economist/China Politics" type="rss" xmlUrl="http://feedmaker.kindle4rss.com/feeds/china-politics.economist.com.xml" htmlUrl="http://www.economist.com/sections/china"/>
