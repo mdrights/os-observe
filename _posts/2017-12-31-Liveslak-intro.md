@@ -1,10 +1,15 @@
 ---
-date: 2018-02-04
+date: 2019-06-17
 permalink: /Liveslak-intro/
 ---
 
-## 私人定制隐私加强的 live 操作系统：LiveSlak
+## 私人定制隐私加强的 live 操作系统：antiS (曾用名：LiveSlak)
 
+### 下载
+- 下载地址持续更新在：[LiveSlak 代码仓库](https://github.com/mdrights/LiveSlak#download)   
+	系統的帳號/密碼：live/live | root/toor    
+
+- 更詳細的说明請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.html)
 
 ### 缘起
 本人其實自去年起便定期（每月）製作一份定製的live iso鏡像，採用的操作系統是之前介紹過的 Devuan GNU/Linux，它是基於 Debian GNU/Linux 的，现在本人仍会不定期更新它，可看看 [以前的博文](https://mdrights.github.io/os-observe/posts/2017/08/Refracta-live.html)）。
@@ -16,7 +21,6 @@ permalink: /Liveslak-intro/
 - 面向中文用户 _（似乎是仅有的中文化的隐私向操作系统）_    
 - 隐私保护和墙国特色信息自由类软件
 - 应用类软件均由本人亲自编译、打包（确保代码的安全和系统的纯净）
-- 内核及系统加固（TODO）
 - live 系统：
 
 ![LiveSlak Screenshot]({{ site.baseurl }}/images/LiveSlak-ATGFW_2018.02.png)
@@ -30,7 +34,7 @@ permalink: /Liveslak-intro/
 
 那么你需要 live 操作系统^ ^。当需要打開網頁，和/或 打開別人發給你的文件（包括各種文檔、pdf、exe、圖片、音頻等）時，木马只会在当前环境中存活，它看到的只是当前空空如也的系统，并随着机器的关机而消失。
 
-### LiveSlak 能防御什么 & 不能防御什么
+### antiS 能防御什么 & 不能防御什么
 **请一定阅读这一部分**   
 - 能防御什么  
 > 从邮件附件、外界进入的文档/图片中的恶意程序，网页下载下来的木马，如果无法阻挡，那就防止它们**长期**驻留在系统对用户进行监视并回传用户数据，并保持一个干净的操作系统；   
@@ -38,8 +42,8 @@ permalink: /Liveslak-intro/
 > 另一方面，也可以作为一个安全的查看不安全的、不信任的文件/程序的平台。
 
 - 不能防御什么   
-> 1. 阻止木马等恶意程序下载到当前环境； 
-2. 如果当前环境有木马下载下来，并且当前环境中有敏感文件，并不能防止木马读取这些文件；   
+> 1. 木马等恶意程序下载到当前环境； 
+> 2. 如果当前环境有木马下载下来，并且当前环境中有敏感文件，并不能防止木马读取这些文件；   
 
 
 ### 用法
@@ -56,70 +60,26 @@ permalink: /Liveslak-intro/
 
 更多用法请前往：[《用户手册》](https://mdrights.github.io/os-observe/docs/LiveSlak-Users-Guide.html)    
 
-### 下载
-自 2018.02 起提供一个完整的 xfce 版本。    
-其他不再贅述，上干货 _（下載後記得做校验）_ ：
-
- --> [下載 LiveSlak](https://github.com/mdrights/LiveSlak#download)   
-(系統的帳號/密碼：live/live     
-
 
 ### 设备要求  
-_（可能有点罗嗦，但还是要提醒一下）_   
 - 目前在 x86_64 架构（人话就是大家都在用的 Intel/AMD 64位电脑）运行；
 - 如果你的电脑是UEFI启动的话，那很抱歉目前本系统有点 bug 还无法用 USB盘在这种系统上启动（传统BIOS的是可以的）；
-- 鉴于这是 GNU/Linux 系统，有时遇到奇葩的 显卡（如Nvidia） 或 无线网卡 可能会缺少驱动，可能导致显示/网络问题（但在虚拟机里不受影响）
+- 鉴于这是 GNU/Linux 系统，有时遇到奇葩的**显卡（如Nvidia） 或 无线网卡**可能会缺少驱动，可能导致显示/网络问题（但在虚拟机里不受影响）
 - （如遇这种情况请告诉我哈～发issue吧）   
 
 
-### 主要软件
-_（若你有需求或好想法可以告诉我～）_
-- fcitx 輸入法 
-- Shadowsocks-libev 
-- ShadowsocksR 
-- Telegram 
-- icecat-hardened 
-- Tor浏览器 ( & Tor )
-- Tor-hardened 
-- NetworkManager
-- firejail 
-- macchiato 
-- VeraCrypt 
-- keepassx 
-- Jitsi	
-- proxychains 
-- privoxy 
-- wipe, secure-delete 
-- testdisk  
-- Signal-Desktop
-- Tor Messenger
-- v2ray
-- Riot-web
-- qTox
-- ~~Lantern 蓝灯 （暂时移除）~~
-
-- 其他日常：
-    - Libreoffice （写文章）
-    - XPDF, Astril （看PDF）
-    - GVIM, Ted (文字编辑器）
-    - docx2txt  （docx格式转换 txt）
-    - Audacious (音频编辑）
-    - GIMP （图像编辑）
-    - Mplayer, GNOME-mplayer （视频播放）
-    - xsane （扫描）
-
-- 完整的[自添加软件列表](https://github.com/mdrights/LiveSlak/blob/mdrights/pkglists/mdrights.lst)
-- 更詳細的说明請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.html)
+### 预装软件
+- 请参加仓库里完整的[自添加软件列表](https://github.com/mdrights/LiveSlak/blob/mdrights/pkglists/mdrights.lst)
 
 
 ### 你的隐私最重要
-_本帖會持續更新，歡迎測試，今后会有更多强大特性喔，祝使用愉快～_   
+_本帖會持續更新，歡迎測試，祝使用愉快～_   
 
 ### 源码 & 许可
 本人构建自己魔改的 LiveSlak 的代码在：[https://github.com/mdrights/LiveSlak](https://github.com/mdrights/LiveSlak)  
 LiveSlak 作者的代码在：[http://bear.alienbase.nl/cgit/liveslak/](http://bear.alienbase.nl/cgit/liveslak/)  
 **欢迎参与协作 ;-)**   
-**交流反饋**：到 [LiveSlak repo](https://github.com/mdrights/LiveSlak) 發個issue；或 IRC/Riot 頻道：#gentoo-cn; 或 Telegram: https://t.me/liveslackware         
+**交流反饋**：到 [LiveSlak repo](https://github.com/mdrights/LiveSlak) 發個issue；或 IRC 頻道：#digitalrightscn (Freenode); 或 Telegram: https://t.me/liveslackware         
 
 
 =========  
