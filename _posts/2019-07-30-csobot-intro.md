@@ -1,7 +1,6 @@
 ---
-title: CSObot: 一个帮助中国公民社会组织的机器人
+title: CSObot 帮助中国公民社会组织的机器人
 ---
-
 ## CSObot: 一个帮助中国公民社会组织的机器人
 
     A bot serving the civil society organisations in China.
