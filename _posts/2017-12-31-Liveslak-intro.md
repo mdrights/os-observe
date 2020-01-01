@@ -1,5 +1,5 @@
 ---
-date: 2019-06-17
+date: 2019-12-31
 permalink: /Liveslak-intro/
 ---
 
@@ -9,7 +9,7 @@ permalink: /Liveslak-intro/
 - 下载地址持续更新在：[LiveSlak 代码仓库](https://github.com/mdrights/LiveSlak#download)   
 	系統的帳號/密碼：live/live | root/toor    
 
-- 更詳細的说明請看 [《用戶手冊》]({{ site.baseurl }}/docs/LiveSlak-Users-Guide.html)
+- 更詳細的说明請看 [《用戶手冊》](https://github.com/mdrights/LiveSlak/blob/V1.3.0/skel/Desktop/LiveSlak-Users-Guide.md)
 
 ### 缘起
 本人其實自去年起便定期（每月）製作一份定製的live iso鏡像，採用的操作系統是之前介紹過的 Devuan GNU/Linux，它是基於 Debian GNU/Linux 的，现在本人仍会不定期更新它，可看看 [以前的博文](https://mdrights.github.io/os-observe/posts/2017/08/Refracta-live.html)）。
@@ -19,9 +19,10 @@ permalink: /Liveslak-intro/
 它主要有这样的特性：   
 
 - 面向中文用户 _（似乎是仅有的中文化的隐私向操作系统）_    
-- 隐私保护和墙国特色信息自由类软件
+- 预装隐私保护、安全通讯和穿墙类软件
 - 应用类软件均由本人亲自编译、打包（确保代码的安全和系统的纯净）
-- live 系统：
+- 系统安全加固  
+- 是一种 live 系统：装在 USB 可移动设备上，每次启动后系统里的软件、文件都保证不被篡改（即在系统上所做的更改只在当前环境有效，重启后都是无效的）  
 
 ![LiveSlak Screenshot]({{ site.baseurl }}/images/LiveSlak-ATGFW_2018.02.png)
 
@@ -58,7 +59,6 @@ permalink: /Liveslak-intro/
 3. 严格区分/定义每次使用的目的：**是当作一个隔离的环境（如看一份重要的文件），还是当作一个对不信任的文件/程序的载体**。 也就是说，如果你这次开机选择的是后者，就请尽量不要把放了重要文件的 USB 盤挂载到当前环境；
 4. 下载下来的文件就不要再在宿主环境里打开了（就是安装了 Virtualbox的那个系统））
 
-更多用法请前往：[《用户手册》](https://mdrights.github.io/os-observe/docs/LiveSlak-Users-Guide.html)    
 
 
 ### 设备要求  
@@ -89,6 +89,7 @@ All rights reserved
 
 只要本版权声明和许可声明出现在所有版本的本软件中，本软件即可被允许以任何目的（有偿或无偿地）使用、复制、修改和分发。
 
+>
    Permission to use, copy, modify, and distribute this software for
    any purpose with or.without fee is hereby granted, provided that
    the above copyright notice and this permission notice appear in all
