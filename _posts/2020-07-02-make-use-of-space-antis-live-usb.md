@@ -12,21 +12,21 @@ date: 2020-07-02
 
 ## 0x0 首先我们先把 antiS 烧录到 U盘：  
 
-教程已写过，在这里：   
+教程已写过，在[这里](https://github.com/mdrights/liveslak#installation)。   
 
 ## 1x0 为 U盘添加一个分区：  
 
 - 在 Linux 的话（如 Ubuntu/Debian | 注意：这里你用 antiS/Slackware 的话 fdisk 有坑会导致增加分区后U盘启动失败，因此尽量别的 Linux 系统吧）：  
-```
-   > 先知道 U盘的编号：
-   $ lsblk
-   > 创建分区（记得不要挂载它）：
-   # fdisk /dev/sdX （X 是U盘编号）
-   - 按 n
-   - 一路按 Enter （如果你只想建一个分区的话）
-   - 按 q 退出
-   > 再 lsblk 查看新建的分区（比如 sdb3）
-```
+```  
+   > 先知道 U盘的编号：  
+   $ lsblk  
+   > 创建分区（记得不要挂载它）：  
+   # fdisk /dev/sdX （X 是U盘编号）  
+   命令: 按 n  
+       一路按 Enter （如果你只想建一个分区的话）  
+   命令: 按 q 退出  
+   再 lsblk 查看新建的分区（比如 sdb3）   
+```  
 
 - （如果不需要建加密分区）格式化分区：  
 ```
@@ -57,9 +57,9 @@ date: 2020-07-02
 
 - 重启系统，以后每次用文件管理器就可以解密并挂载这个分区啦！（需要输入两次密码）  
 
-![](images/antis-decrypt.jpg)
+![]({{ site.baseurl }}/images/antis-decrypt.jpg)
 	图一：第一次密码：创建加密分区时的密码  
 
-![](images/antis-mount.jpg)
+![]({{ site.baseurl }}/images/antis-mount.jpg)
 	图二：第二次密码：本系统 root 密码：toor  
 
