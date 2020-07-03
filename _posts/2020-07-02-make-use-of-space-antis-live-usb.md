@@ -5,26 +5,26 @@ date: 2020-07-02
 
 
 
+## 如何利用更多的 AntiS USB 空间（并加密）
+
 如果你正在使用本人制作维护的发行版：[antiS (Liveslak)](https://github.com/mdrights/liveslak) —— 一款隐私加强、翻越长城、反取证的 live 性质的操作系统（基于 Slackware Linux），
 并且你是在一个比较大的 U盘上使用 antiS，那你可能会感兴趣是否能把 U盘剩余的空间都利用上吧！
 
 下面我们来试试：  
 
-## 0x0 首先我们先把 antiS 烧录到 U盘：  
+## 首先我们先把 antiS 烧录到 U盘：  
 
 教程已写过，在[这里](https://github.com/mdrights/liveslak#installation)。   
 
-## 1x0 为 U盘添加一个分区：  
+## 为 U盘添加一个分区：  
 
-- 在 Linux 的话（如 Ubuntu/Debian | 注意：这里你用 antiS/Slackware 的话 fdisk 有坑会导致增加分区后U盘启动失败，因此尽量别的 Linux 系统吧）：  
+- 你需要在另一台 Linux 进行操作（如 Ubuntu/Debian）   
+	**以下所有操作都以 root 用户进行。**  
 ```  
-   > 先知道 U盘的编号：  
-   $ lsblk  
+   > 先知道 U盘的编号（通常最底部的盘就是刚插入的）：  
+   # lsblk  
    > 创建分区（记得不要挂载它）：  
-   # fdisk /dev/sdX （X 是U盘编号）  
-   命令: 按 n  
-       一路按 Enter （如果你只想建一个分区的话）  
-   命令: 按 q 退出  
+   # parted -s /dev/sdX mkpart primary 2450MiB 7300MiB    （X 是你U盘编号，比如 sdb 注意这里是不带数字的）  
    再 lsblk 查看新建的分区（比如 sdb3）   
 ```  
 
