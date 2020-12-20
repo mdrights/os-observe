@@ -49,5 +49,24 @@ date: 2020-12-20
 - **[kien/ctrlp.vim](https://github.com/kien/ctrlp.vim)**:  文件管理器  
 - **[vim-scripts/taglist.vim](https://github.com/vim-scripts/taglist.vim)**: 源代码浏览器  
 
+### ALE 中设置的语法检查工具
+
+- Python: pylint
+- yaml:	  swaglint
+- sh:	  shellcheck
+- markdown & text: 'textlint', 'write-good', 'proselint', 'alex'
+
+### Textlint 中的插件（很强大） 
+
+- no-todo
+- en-spell
+- @textlint-rule/no-unmatched-pair
+- @textlint-rule/preset-google
+- common-misspellings
+- no-dead-link
+- terminology
+
+
+对了，这里是我的 [vimrc](https://github.com/mdrights/Myscripts/blob/master/dotfiles/vimrc-w-plugin)。  
 
 祝使用愉快！
