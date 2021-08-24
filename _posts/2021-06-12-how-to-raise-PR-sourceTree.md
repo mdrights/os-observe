@@ -16,6 +16,7 @@ how-to-raise-PR-sourceTree.md
 
 ## 導入你的 Git 項目
 
+<!--more-->
 
 ## 新增/編輯你的內容
 

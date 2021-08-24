@@ -17,6 +17,7 @@
 
 OhMyForm 再加上 [Caprover](https://caprover.com/docs/get-started.html) —— 一個自動化軟件發佈平台軟件（PaaS），不需要理解軟件發佈的原理就能把很多常用的服務端軟件（包括 OhMyForm）發佈到你指定的 VPS 服務器上，通常只需要[幾個點擊](https://caprover.com/docs/one-click-apps.html)， 兩個命令只是用來在你的本地電腦安裝 CapRover 而已。
 
+<!--more-->
 
 ## 第一步：租 VPS 并部署 Caprover
 由於 Caprover 跟 主機服務商 DigitalOcean (DO) 有合作，所以在 DO 上開個 VPS 後可以直接一鍵部署 Caprover。（如果不選擇 DO，其他的主機服務商都可以，不過就是多一些部署命令，詳見：[Caprover 官方文檔 的第一和第二步](https://caprover.com/docs/get-started.html#caprover-setup)  
