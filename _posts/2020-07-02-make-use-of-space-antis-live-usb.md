@@ -19,7 +19,7 @@ date: 2022-02-20
 
 方法已写过，在[这里](https://github.com/mdrights/liveslak#installation)。   
 
-以下均在 **Linux 操作系统**上操作（大多数 Linux 发行版都会配有本教程需要用到的工具，请自行安装）。(macOS 因缺乏相应工具暂不支持)  
+以下均在 **Linux 操作系统**上操作（大多数 Linux 发行版都会配有本教程需要用到的工具，若系统没有相关命令请自行安装；antiS 已配备这些命令）。(macOS 因缺乏相应工具暂不支持)  
 
 因此建议用家平时备2个U盘，每次轮流烧录，特别是有自建分区的，也方便把该分区里的东西倒到新U盘分区。  
 
@@ -49,13 +49,16 @@ date: 2022-02-20
    # mkfs.ext4 -L ANTIS-persist /dev/sdb3
 ```
 
-- 上面这命令用的是 Linux 默认的 ext4 文件系统格式；如果想该分区也能在 Windows 和 macOS 上，请使用 exfat 格式：  
+- 上面这命令用的是 Linux 默认的 ext4 文件系统格式；如果想该分区也能在 macOS 上打开（Windows不行），请使用 exfat 格式：（在macOS打开方式有些特别，详见附录）   
 ```
    # mkfs.exfat -L ANTIS-persist /dev/sdb3
 ```
 
-- 然后挂载它就可以使用了。重启系统，以后每次在文件管理器里就可以挂载了。
+- 然后重启进入刚烧录的 antiS 系统，在文件管理器里就可以挂载了。祝使用愉快！
 
+- Tips: 格式化命令也可以替换为一个图形化界面的工具：Gparted （在程序菜单里就有）。
+
+<hr />
 
 ### 下面是创建加密分区的步骤：
 
@@ -76,11 +79,36 @@ date: 2022-02-20
    # cryptsetup luksClose /dev/mapper/usb
 ```
 
-- 重启系统，以后每次用文件管理器就可以解密并挂载这个分区啦！（需要输入两次密码）  
+- 同样，重启进入 antiS 系统，在文件管理器就可以解密并挂载这个分区啦！（需要输入两次密码）  
 
 ![]({{ site.baseurl }}/images/antis-decrypt.jpg)
 	图一：第一次密码：创建加密分区时的密码  
 
 ![]({{ site.baseurl }}/images/antis-mount.jpg)
 	图二：第二次密码：本系统 root 密码：toor  
+
+
+<hr />
+
+# 附录
+
+- 在 macOS 挂载 antiS U盘分区的方法：（插入U盘会提示不支持之类的错误，可 ignore 忽略掉即可）。
+
+	- 先查看该分区的编号：
+	```
+	  diskutil list
+    ```
+	- 使用命令挂载
+	```
+	  sudo mkdir -p /Volumes/usb/   （创建一个文件夹，创建一次即可，以后都用这个文件夹；也可以选择现有的文件夹就不用创建了）
+	  sudo mount -t exfat /dev/disk2s3  /Volumes/usb/  （比如我的分区编号是 disk2s3 ）
+	```
+
+	- 然后从 finder (Command + shift + G) 输入上面的文件夹路径 就可以看到里面的文件了。  
+
+	- 用完记得卸载U盘：
+	```
+      sudo umount /Volumes/usb/
+	```
+
 
