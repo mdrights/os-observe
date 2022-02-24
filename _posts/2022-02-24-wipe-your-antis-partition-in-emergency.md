@@ -1,5 +1,4 @@
 ---
-title: 紧急情况下抹掉你的 antiS 分区
 date: 2022-02-24
 ---
 
@@ -39,7 +38,7 @@ _支持 antiS 2022.01.rc4 及以后的版本_
 
 <hr />
 
-Tips: 以上方法是在上一篇教程：[]() 的基础上才有效，即**创建了分区并格式化**了。如果：  
+Tips: 以上方法是在上一篇教程：[如何利用更多的 antiS USB 空间](https://mdrights.github.io/os-observe/posts/2022/02/make-use-of-space-antis-live-usb.html) 的基础上才有效，即**创建了分区并格式化**了。如果：  
 - 没有建分区，则 kill 操作会把整个 antiS U盘抹掉（如果这是你愿意的也行）；  
 - 建了分区但没有格式化，则 kill 不会任何操作。  
 
