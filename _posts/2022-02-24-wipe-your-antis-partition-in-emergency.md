@@ -20,11 +20,11 @@ _支持 antiS 2022.01.rc4 及以后的版本_
 
 - 用最快的方式重启电脑，在这个开机画面敲下 Tab 键：
 
-![]({{ site.baseurl }}/images/antis-wipe-partition.jpg)
+  ![]({{ site.baseurl }}/images/antis-wipe-partition.jpg)
 
 - 在最下方的两排字的最后输入：一个空格加上`kill`，然后敲回车即可！
 
-![]({{ site.baseurl }}/images/antis-wipe-partition-2.jpg)
+  ![]({{ site.baseurl }}/images/antis-wipe-partition-2.jpg)
 
     （正在 wiping...）  
 
