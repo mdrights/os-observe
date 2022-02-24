@@ -21,11 +21,11 @@ _支持 antiS 2022.01.rc4 及以后的版本_
 
 - 用最快的方式重启电脑，在这个开机画面敲下 Tab 键：
 
-![](./images/antis-wipe-partition.jpg)
+![]({{ site.baseurl }}/images/antis-wipe-partition.jpg)
 
 - 在最下方的两排字的最后输入：一个空格加上`kill`，然后敲回车即可！
 
-![](./images/antis-wipe-partition-2.jpg)
+![]({{ site.baseurl }}/images/antis-wipe-partition-2.jpg)
 
     （正在 wiping...）  
 
@@ -33,7 +33,9 @@ _支持 antiS 2022.01.rc4 及以后的版本_
 
 - 擦除之后系统还能启动并正常使用，只是原来的自建分区无法挂载使用了。  
 
-向对方展示一个毫无痕迹、没用过的系统吧～祝勇往直前！
+向对方展示一个毫无痕迹、没用过的系统吧～
+
+祝勇往直前！
 
 <hr />
 
